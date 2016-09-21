@@ -1,0 +1,99 @@
+c:\users\geo.pal\documents\visual studio 2015\Projects\palaioGG\palaioGG\bin\ApplicationInsights.config
+c:\users\geo.pal\documents\visual studio 2015\Projects\palaioGG\palaioGG\bin\roslyn\csc.exe
+c:\users\geo.pal\documents\visual studio 2015\Projects\palaioGG\palaioGG\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\geo.pal\documents\visual studio 2015\Projects\palaioGG\palaioGG\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\geo.pal\documents\visual studio 2015\Projects\palaioGG\palaioGG\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\geo.pal\documents\visual studio 2015\Projects\palaioGG\palaioGG\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\geo.pal\documents\visual studio 2015\Projects\palaioGG\palaioGG\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\geo.pal\documents\visual studio 2015\Projects\palaioGG\palaioGG\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\geo.pal\documents\visual studio 2015\Projects\palaioGG\palaioGG\bin\roslyn\System.Collections.Immutable.dll
+c:\users\geo.pal\documents\visual studio 2015\Projects\palaioGG\palaioGG\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\geo.pal\documents\visual studio 2015\Projects\palaioGG\palaioGG\bin\roslyn\vbc.exe
+c:\users\geo.pal\documents\visual studio 2015\Projects\palaioGG\palaioGG\bin\roslyn\VBCSCompiler.exe
+c:\users\geo.pal\documents\visual studio 2015\Projects\palaioGG\palaioGG\bin\roslyn\VBCSCompiler.exe.config
+c:\users\geo.pal\documents\visual studio 2015\Projects\palaioGG\palaioGG\bin\palaioGG.dll.config
+c:\users\geo.pal\documents\visual studio 2015\Projects\palaioGG\palaioGG\bin\palaioGG.dll
+c:\users\geo.pal\documents\visual studio 2015\Projects\palaioGG\palaioGG\bin\palaioGG.pdb
+c:\users\geo.pal\documents\visual studio 2015\Projects\palaioGG\palaioGG\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\geo.pal\documents\visual studio 2015\Projects\palaioGG\palaioGG\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\geo.pal\documents\visual studio 2015\Projects\palaioGG\palaioGG\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\geo.pal\documents\visual studio 2015\Projects\palaioGG\palaioGG\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\geo.pal\documents\visual studio 2015\Projects\palaioGG\palaioGG\bin\Microsoft.AI.Web.dll
+c:\users\geo.pal\documents\visual studio 2015\Projects\palaioGG\palaioGG\bin\Microsoft.AI.WindowsServer.dll
+c:\users\geo.pal\documents\visual studio 2015\Projects\palaioGG\palaioGG\bin\Microsoft.ApplicationInsights.dll
+c:\users\geo.pal\documents\visual studio 2015\Projects\palaioGG\palaioGG\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\geo.pal\documents\visual studio 2015\Projects\palaioGG\palaioGG\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\geo.pal\documents\visual studio 2015\Projects\palaioGG\palaioGG\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\geo.pal\documents\visual studio 2015\Projects\palaioGG\palaioGG\bin\Microsoft.AI.Web.xml
+c:\users\geo.pal\documents\visual studio 2015\Projects\palaioGG\palaioGG\bin\Microsoft.AI.WindowsServer.xml
+c:\users\geo.pal\documents\visual studio 2015\Projects\palaioGG\palaioGG\bin\Microsoft.ApplicationInsights.xml
+c:\users\geo.pal\documents\visual studio 2015\Projects\palaioGG\palaioGG\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\geo.pal\documents\visual studio 2015\Projects\palaioGG\palaioGG\obj\Debug\palaioGG.csprojResolveAssemblyReference.cache
+c:\users\geo.pal\documents\visual studio 2015\Projects\palaioGG\palaioGG\obj\Debug\palaioGG.dll
+c:\users\geo.pal\documents\visual studio 2015\Projects\palaioGG\palaioGG\obj\Debug\palaioGG.pdb
+C:\Users\Geo.Pal\Desktop\Development\palaioGG\palaioGG\bin\ApplicationInsights.config
+C:\Users\Geo.Pal\Desktop\Development\palaioGG\palaioGG\bin\roslyn\csc.exe
+C:\Users\Geo.Pal\Desktop\Development\palaioGG\palaioGG\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Geo.Pal\Desktop\Development\palaioGG\palaioGG\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Geo.Pal\Desktop\Development\palaioGG\palaioGG\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Geo.Pal\Desktop\Development\palaioGG\palaioGG\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Geo.Pal\Desktop\Development\palaioGG\palaioGG\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Geo.Pal\Desktop\Development\palaioGG\palaioGG\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Geo.Pal\Desktop\Development\palaioGG\palaioGG\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Geo.Pal\Desktop\Development\palaioGG\palaioGG\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Geo.Pal\Desktop\Development\palaioGG\palaioGG\bin\roslyn\vbc.exe
+C:\Users\Geo.Pal\Desktop\Development\palaioGG\palaioGG\bin\roslyn\VBCSCompiler.exe
+C:\Users\Geo.Pal\Desktop\Development\palaioGG\palaioGG\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Geo.Pal\Desktop\Development\palaioGG\palaioGG\bin\palaioGG.dll.config
+C:\Users\Geo.Pal\Desktop\Development\palaioGG\palaioGG\bin\palaioGG.dll
+C:\Users\Geo.Pal\Desktop\Development\palaioGG\palaioGG\bin\palaioGG.pdb
+C:\Users\Geo.Pal\Desktop\Development\palaioGG\palaioGG\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Geo.Pal\Desktop\Development\palaioGG\palaioGG\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Geo.Pal\Desktop\Development\palaioGG\palaioGG\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Geo.Pal\Desktop\Development\palaioGG\palaioGG\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Geo.Pal\Desktop\Development\palaioGG\palaioGG\bin\Microsoft.AI.Web.dll
+C:\Users\Geo.Pal\Desktop\Development\palaioGG\palaioGG\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Geo.Pal\Desktop\Development\palaioGG\palaioGG\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Geo.Pal\Desktop\Development\palaioGG\palaioGG\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Geo.Pal\Desktop\Development\palaioGG\palaioGG\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Geo.Pal\Desktop\Development\palaioGG\palaioGG\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Geo.Pal\Desktop\Development\palaioGG\palaioGG\bin\Microsoft.AI.Web.xml
+C:\Users\Geo.Pal\Desktop\Development\palaioGG\palaioGG\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Geo.Pal\Desktop\Development\palaioGG\palaioGG\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Geo.Pal\Desktop\Development\palaioGG\palaioGG\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Geo.Pal\Desktop\Development\palaioGG\palaioGG\obj\Debug\palaioGG.csprojResolveAssemblyReference.cache
+C:\Users\Geo.Pal\Desktop\Development\palaioGG\palaioGG\obj\Debug\palaioGG.dll
+C:\Users\Geo.Pal\Desktop\Development\palaioGG\palaioGG\obj\Debug\palaioGG.pdb
+C:\Users\Geo.Pal\Desktop\Development\palaioGG-portfolio\palaioGG\bin\ApplicationInsights.config
+C:\Users\Geo.Pal\Desktop\Development\palaioGG-portfolio\palaioGG\bin\roslyn\csc.exe
+C:\Users\Geo.Pal\Desktop\Development\palaioGG-portfolio\palaioGG\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Geo.Pal\Desktop\Development\palaioGG-portfolio\palaioGG\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Geo.Pal\Desktop\Development\palaioGG-portfolio\palaioGG\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Geo.Pal\Desktop\Development\palaioGG-portfolio\palaioGG\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Geo.Pal\Desktop\Development\palaioGG-portfolio\palaioGG\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Geo.Pal\Desktop\Development\palaioGG-portfolio\palaioGG\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Geo.Pal\Desktop\Development\palaioGG-portfolio\palaioGG\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Geo.Pal\Desktop\Development\palaioGG-portfolio\palaioGG\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Geo.Pal\Desktop\Development\palaioGG-portfolio\palaioGG\bin\roslyn\vbc.exe
+C:\Users\Geo.Pal\Desktop\Development\palaioGG-portfolio\palaioGG\bin\roslyn\VBCSCompiler.exe
+C:\Users\Geo.Pal\Desktop\Development\palaioGG-portfolio\palaioGG\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Geo.Pal\Desktop\Development\palaioGG-portfolio\palaioGG\bin\palaioGG.dll.config
+C:\Users\Geo.Pal\Desktop\Development\palaioGG-portfolio\palaioGG\bin\palaioGG.dll
+C:\Users\Geo.Pal\Desktop\Development\palaioGG-portfolio\palaioGG\bin\palaioGG.pdb
+C:\Users\Geo.Pal\Desktop\Development\palaioGG-portfolio\palaioGG\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Geo.Pal\Desktop\Development\palaioGG-portfolio\palaioGG\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Geo.Pal\Desktop\Development\palaioGG-portfolio\palaioGG\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Geo.Pal\Desktop\Development\palaioGG-portfolio\palaioGG\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Geo.Pal\Desktop\Development\palaioGG-portfolio\palaioGG\bin\Microsoft.AI.Web.dll
+C:\Users\Geo.Pal\Desktop\Development\palaioGG-portfolio\palaioGG\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Geo.Pal\Desktop\Development\palaioGG-portfolio\palaioGG\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Geo.Pal\Desktop\Development\palaioGG-portfolio\palaioGG\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Geo.Pal\Desktop\Development\palaioGG-portfolio\palaioGG\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Geo.Pal\Desktop\Development\palaioGG-portfolio\palaioGG\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Geo.Pal\Desktop\Development\palaioGG-portfolio\palaioGG\bin\Microsoft.AI.Web.xml
+C:\Users\Geo.Pal\Desktop\Development\palaioGG-portfolio\palaioGG\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Geo.Pal\Desktop\Development\palaioGG-portfolio\palaioGG\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Geo.Pal\Desktop\Development\palaioGG-portfolio\palaioGG\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Geo.Pal\Desktop\Development\palaioGG-portfolio\palaioGG\obj\Debug\palaioGG.csprojResolveAssemblyReference.cache
+C:\Users\Geo.Pal\Desktop\Development\palaioGG-portfolio\palaioGG\obj\Debug\palaioGG.dll
+C:\Users\Geo.Pal\Desktop\Development\palaioGG-portfolio\palaioGG\obj\Debug\palaioGG.pdb
