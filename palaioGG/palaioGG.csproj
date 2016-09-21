@@ -147,8 +147,6 @@
     <Content Include="scripts\angular-mocks.js" />
     <Content Include="scripts\angular-parse-ext.js" />
     <Content Include="scripts\angular-parse-ext.min.js" />
-    <Content Include="scripts\angular-peity.js" />
-    <Content Include="scripts\angular-peity.min.js" />
     <Content Include="scripts\angular-resource.js" />
     <Content Include="scripts\angular-resource.min.js" />
     <Content Include="scripts\angular-route.js" />
@@ -924,7 +922,6 @@
     <Content Include="scripts\jquery-3.1.0.min.js" />
     <Content Include="scripts\jquery-3.1.0.slim.js" />
     <Content Include="scripts\jquery-3.1.0.slim.min.js" />
-    <Content Include="scripts\ng-peity.js" />
     <Content Include="styles\main.css" />
     <Content Include="Web.config" />
     <Content Include="scripts\version.json" />
