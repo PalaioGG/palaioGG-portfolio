@@ -98,6 +98,9 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="scripts\c3-angular.js" />
+    <Content Include="scripts\c3-angular.min.js" />
+    <Content Include="scripts\d3-3.5.17.min.zopfli.js" />
     <Content Include="scripts\jquery-3.1.0.slim.min.map" />
     <Content Include="scripts\jquery-3.1.0.min.map" />
     <None Include="Web.Debug.config">
