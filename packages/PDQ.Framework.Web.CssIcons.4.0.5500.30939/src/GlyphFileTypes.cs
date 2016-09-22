@@ -1,0 +1,143 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace PDQ.Framework.Web.CssIcons
+{
+    public enum GlyphFileTypes
+    {
+Txt, // txt
+Doc, // doc
+Rtf, // rtf
+Log, // log
+Tex, // tex
+Msg, // msg
+Text, // text
+Wpd, // wpd
+Wps, // wps
+Docx, // docx
+Page, // page
+Csv, // csv
+Dat, // dat
+Tar, // tar
+Xml, // xml
+Vcf, // vcf
+Pps, // pps
+Key, // key
+Ppt, // ppt
+Pptx, // pptx
+Sdf, // sdf
+Gbr, // gbr
+Ged, // ged
+Mp3, // mp3
+M4a, // m4a
+Waw, // waw
+Wma, // wma
+Mpa, // mpa
+Iff, // iff
+Aif, // aif
+Ra, // ra
+Mid, // mid
+M3v, // m3v
+E3gp, // e-3gp
+Shf, // shf
+Avi, // avi
+Asx, // asx
+Mp4, // mp4
+E3g2, // e-3g2
+Mpg, // mpg
+Asf, // asf
+Vob, // vob
+Wmv, // wmv
+Mov, // mov
+Srt, // srt
+M4v, // m4v
+Flv, // flv
+Rm, // rm
+Png, // png
+Psd, // psd
+Psp, // psp
+Jpg, // jpg
+Tif, // tif
+Tiff, // tiff
+Gif, // gif
+Bmp, // bmp
+Tga, // tga
+Thm, // thm
+Yuv, // yuv
+Dds, // dds
+Ai, // ai
+Eps, // eps
+Ps, // ps
+Svg, // svg
+Pdf, // pdf
+Pct, // pct
+Indd, // indd
+Xlr, // xlr
+Xls, // xls
+Xlsx, // xlsx
+Db, // db
+Dbf, // dbf
+Mdb, // mdb
+Pdb, // pdb
+Sql, // sql
+Aacd, // aacd
+App, // app
+Exe, // exe
+Com, // com
+Bat, // bat
+Apk, // apk
+Jar, // jar
+Hsf, // hsf
+Pif, // pif
+Vb, // vb
+Cgi, // cgi
+Css, // css
+Js, // js
+Php, // php
+Xhtml, // xhtml
+Htm, // htm
+Html, // html
+Asp, // asp
+Cer, // cer
+Jsp, // jsp
+Cfm, // cfm
+Aspx, // aspx
+Rss, // rss
+Csr, // csr
+Less, // less
+Otf, // otf
+Ttf, // ttf
+Font, // font
+Fnt, // fnt
+Eot, // eot
+Woff, // woff
+Zip, // zip
+Zipx, // zipx
+Rar, // rar
+Targ, // targ
+Sitx, // sitx
+Deb, // deb
+E7z, // e-7z
+Pkg, // pkg
+Rpm, // rpm
+Cbr, // cbr
+Gz, // gz
+Dmg, // dmg
+Cue, // cue
+Bin, // bin
+Iso, // iso
+Hdf, // hdf
+Vcd, // vcd
+Bak, // bak
+Tmp, // tmp
+Ics, // ics
+Msi, // msi
+Cfg, // cfg
+Ini, // ini
+Prf, // prf
+
+    }
+}

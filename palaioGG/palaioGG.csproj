@@ -76,6 +76,10 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="PDQ.Framework.Web.CssIcons, Version=4.0.5500.30939, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\PDQ.Framework.Web.CssIcons.4.0.5500.30939\lib\net45\PDQ.Framework.Web.CssIcons.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
