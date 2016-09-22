@@ -94,6 +94,12 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="img\angular_logo.png" />
+    <Content Include="img\Boostrap_logo.svg" />
+    <Content Include="img\css_logo.png" />
+    <Content Include="img\html_logo.png" />
+    <Content Include="img\javascript_logo.png" />
+    <Content Include="img\will_logo.png" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
