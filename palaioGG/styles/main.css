@@ -10,8 +10,8 @@
 .palaioGG .avatar-wrapper {
     width: 150px;
     height: 150px;
-    position: relative;
-    top: 0px;
+    position: absolute;
+    top: 10px;
     margin: 0 auto;
 }
 
@@ -20,12 +20,14 @@
     height: 150px;
     border-radius: 50%;
     border: 2px solid #fff;
+    margin: 0 auto;
 }
 
 .palaioGG .menu-wrapper {
-    width: 403px;
+    width: 195px;
     height: 200px;
     margin: 0 auto;
+    position: relative;
 }
 
 .palaioGG .navbar .menu-list-item {
@@ -49,7 +51,7 @@
     color: #fff;
 }
 
-.palaioGG .skillset .title-straight-line { 
+.palaioGG .title-straight-line { 
     border-top: 1px solid white; 
     width: 300px; 
     height: 2px; 
@@ -68,6 +70,13 @@
 .palaioGG .skillset .skill-wrapper .skill-logo.float-fix { float: right; margin-bottom: 40px; }
 .palaioGG .skillset .skill-wrapper .skill-title { bottom: 20px; }
 
+/*projects section*/
+.palaioGG .projects {
+    height: 800px;
+    background-color: #071014;
+    color: white;
+    padding-top: 40px;
+}
 
 .border-ruler { border: 1px solid white; }
 
