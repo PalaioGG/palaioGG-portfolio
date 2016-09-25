@@ -6,6 +6,9 @@
     background-color: black;
 }
 
+.palaioGG .version-badge { width: 150px; height: 60px; border-radius: 50%; border: 1px solid red; color: red; float: right; margin-top: -206px; margin-right: -335px; }
+.palaioGG .version-title { line-height: 3; text-indent: 14px; font-size: 19px; }
+
 .icons-container { width: 230px; position: absolute; left: 15px; top: 70px; }
 
 .palaioGG .menu-wrapper .menu-icons .fa { color: #bfbfbf; }
