@@ -6,6 +6,13 @@
     background-color: black;
 }
 
+.icons-container { width: 230px; }
+
+.palaioGG .menu-wrapper .menu-icons .fa { color: #ccc; }
+.palaioGG .menu-wrapper .menu-icons.contact-link { float: left; line-height: 6; text-indent: -16px; }
+.palaioGG .menu-wrapper .menu-icons.projects-link { float: right; text-indent: -39px; }
+.palaioGG .menu-wrapper .menu-icons.skills-link { line-height: 6; float: right; text-indent: 14px; }
+
 
 .palaioGG .avatar-wrapper {
     width: 150px;

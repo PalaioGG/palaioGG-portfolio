@@ -130,3 +130,5 @@ C:\Users\Geo.Pal\Desktop\Development\Repositories\palaioGG-portfolio\palaioGG\bi
 C:\Users\Geo.Pal\Desktop\Development\Repositories\palaioGG-portfolio\palaioGG\obj\Debug\palaioGG.csprojResolveAssemblyReference.cache
 C:\Users\Geo.Pal\Desktop\Development\Repositories\palaioGG-portfolio\palaioGG\obj\Debug\palaioGG.dll
 C:\Users\Geo.Pal\Desktop\Development\Repositories\palaioGG-portfolio\palaioGG\obj\Debug\palaioGG.pdb
+C:\Users\Geo.Pal\Desktop\Development\Repositories\palaioGG-portfolio\palaioGG\bin\PDQ.Framework.Web.CssIcons.dll
+C:\Users\Geo.Pal\Desktop\Development\Repositories\palaioGG-portfolio\palaioGG\bin\PDQ.Framework.Web.CssIcons.pdb
