@@ -6,19 +6,20 @@
     background-color: black;
 }
 
-.icons-container { width: 230px; }
+.icons-container { width: 230px; position: absolute; left: 15px; top: 70px; }
 
-.palaioGG .menu-wrapper .menu-icons .fa { color: #ccc; }
-.palaioGG .menu-wrapper .menu-icons.contact-link { float: left; line-height: 6; text-indent: -16px; }
-.palaioGG .menu-wrapper .menu-icons.projects-link { float: right; text-indent: -39px; }
-.palaioGG .menu-wrapper .menu-icons.skills-link { line-height: 6; float: right; text-indent: 14px; }
+.palaioGG .menu-wrapper .menu-icons .fa { color: #bfbfbf; }
+.palaioGG .menu-wrapper .menu-icons.contact-link { float: right; line-height: 6; text-indent: -23px; }
+.palaioGG .menu-wrapper .menu-icons.projects-link { float: left; text-indent: 33px; }
+.palaioGG .menu-wrapper .menu-icons.skills-link { line-height: 6; float: left; text-indent: -8px; }
 
 
 .palaioGG .avatar-wrapper {
     width: 150px;
     height: 150px;
     position: absolute;
-    top: 10px;
+    top: 30px;
+    left: 40px;
     margin: 0 auto;
 }
 
@@ -26,17 +27,18 @@
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    border: 4px solid #fff;
+    /*border: 4px solid #fff;*/
     margin: 0 auto;
 }
 
 .palaioGG .menu-wrapper {
-    width: 200px;
-    height: 200px;
+    width: 230px;
+    height: 230px;
     margin: 0 auto;
     position: relative;
     border-radius: 50%;
     background-color: #39215E;
+    margin-top: -10px;
 }
 
 .palaioGG .menu-wrapper .menu-icons {
@@ -93,6 +95,18 @@
     background-color: #071014;
     color: white;
     padding-top: 40px;
+}
+
+/*contact section*/
+.palaioGG .contact {
+    height: 450px;
+    background-color: black;
+    color: white;
+    padding-top: 40px;
+}
+
+.palaioGG .contact .contact-container {
+    padding: 40px 0;
 }
 
 .border-ruler { border: 1px solid white; }
