@@ -32,20 +32,17 @@
 </head>
 <body ng-controller="palaioController">
     <div class="palaioGG">
-        <div class="container-fluid">
+        <!--<div class="container-fluid">
             <div class="row">
                 <div class="col-xs-12">
                     <nav class="navbar navbar-fixed-top">
                         <div class="container">
-                            <!--<div class="col-xs-2 offset-xs-5">-->
                             <div class="menu-wrapper">
-                                <!--<a class="nav-link menu-list-item" href="">About</a>-->
                                 <a class="nav-link menu-list-item" href="">
                                     <div class="avatar-wrapper">
                                         <img class="avatar" src="img/avatar.jpg" />
                                     </div>
                                 </a>
-                                <!--<a class="nav-link menu-list-item" href="">Contact</a>-->
                                 <div class="icons-container">
                                     <div class="menu-icons skills-link">
                                         <a href="">
@@ -64,14 +61,13 @@
                                     </div>
                                 </div>
                             </div>
-                            <!--</div>-->
                             <div>
                                 <div class="version-badge">
                                     <h3 class="version-title">Pre-Alpha Version</h3>
                                 </div>
                             </div>
                         </div>
-                        
+
                     </nav>
                 </div>
             </div>
@@ -236,6 +232,50 @@
                         <div class="contact-container">
                             <div class="LI-profile-badge" data-version="v1" data-size="large" data-locale="en_US" data-type="horizontal" data-theme="dark" data-vanity="giorgos-palaiologos-878958112"><a class="LI-simple-link" href='https://gr.linkedin.com/in/giorgos-palaiologos-878958112?trk=profile-badge'>Giorgos Palaiologos</a></div>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>-->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="main">
+                    <div class="col-xs-12">
+                        <div id="nav-icon3" ng-click="controlNav()" ng-class="{'open': menu_visible === true}">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <div class="pull-xs-right">
+                            <h6 id="version">Pre-Alpha Version</h6>
+                        </div>
+                        <div id="myNav" class="overlay">
+                            <div class="overlay-content">
+                                <a href="#">About</a>
+                                <a href="#">Skills</a>
+                                <a href="#">Projects</a>
+                                <a href="#">Contact</a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <div class="avatar-wrapper">
+                                    <img class="avatar" src="img/avatar.jpg" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <div class="title-container">
+                                    <h2>Motivated <span id="front_dev">Front-End Developer</span></h2>
+                                    <h2 id="interested">Interested in</h2> 
+                                    <h2><span id="web">web development</span> and <span id="design">design</span></h2>
+                                    <h2><span id="substance">Passionate</span> knowledge seeker.</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="stripe_top"></div>
+                        <div id="stripe_bottom"></div>
                     </div>
                 </div>
             </div>

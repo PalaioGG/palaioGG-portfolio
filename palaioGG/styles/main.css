@@ -1,4 +1,5 @@
 ﻿body {
+    overflow: hidden;
 }
 
 .palaioGG .navbar {
@@ -152,3 +153,238 @@
 #donut-js-chart .c3-legend-item,
 #donut-angular-chart .c3-legend-item,
 #donut-will-chart .c3-legend-item { opacity: 0; display: none; }
+
+
+/*new portfolio*/
+
+@font-face {
+    font-family: Walkway;
+    src: url(../fonts/Walkway_Black.ttf);
+}
+
+@font-face {
+    font-family: Whipsmart;
+    src: url(../fonts/Whipsmart.ttf);
+}
+
+@font-face {
+    font-family: Chintzy;
+    src: url(../fonts/chintzy.ttf);
+}
+
+@font-face {
+    font-family: Pinstripe;
+    src: url(../fonts/Pinstripe_Limo.ttf);
+}
+
+@font-face {
+    font-family: Ambrosia;
+    src: url(../fonts/AMBROSIA_DEMO.ttf);
+}
+
+.palaioGG .main {
+    width: 100%;
+    height: 100vh;
+    background-color: #F2E085;
+    /*background-image: url(../img/brutalism.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;*/
+}
+
+.palaioGG .main #version { margin-top: 20px; z-index: 3; position: relative; }
+
+.palaioGG .main .avatar-wrapper {
+    width: 250px;
+    height: 250px;
+    margin-top: 9%;
+    position: initial;
+}
+
+.palaioGG .main .avatar {
+    width: 250px;
+    height: 250px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    border: 2px solid #A7A37E;
+}
+
+.palaioGG .main .title-container {
+    width: 100%;
+    text-align: center;
+    display: block;
+    margin-top: 2%;
+}
+
+/*title font region*/
+.palaioGG .main .title-container h2 { font-family: Walkway; }
+.palaioGG .main .title-container #front_dev { color: #55595E; font-family: Whipsmart; font-weight: bold; }
+.palaioGG .main .title-container #interested { letter-spacing: 12px; text-transform: uppercase; font-size: 1.8rem; }
+.palaioGG .main .title-container #web { color: #55595E; font-family: Chintzy; font-size: 2.4rem; }
+.palaioGG .main .title-container #design { color: #E08631; font-family: Pinstripe; text-transform: uppercase; font-size: 2.1rem; letter-spacing: 2px; }
+.palaioGG .main .title-container #substance { color: #E0493A; font-family: Ambrosia; font-weight: 900; text-transform: uppercase; font-size: 2.3rem; }
+/*endregion*/
+
+#stripe_top { 
+    border-top: 5px solid black;
+    border-radius: 20px;
+    margin-top: -600px;
+    float: right;
+    margin-right: -200px;
+    z-index: 9999; 
+    width: 100vh; 
+    transform: rotate(35deg); 
+}
+
+#stripe_bottom { 
+    border-top: 5px solid black;
+    border-radius: 20px;
+    margin-top: 100px;
+    margin-left: -200px;
+    z-index: 9999; 
+    width: 100vh; 
+    transform: rotate(35deg); 
+}
+
+@media screen and (max-device-width: 658px) {
+    .palaioGG .main .avatar {
+        width: 180px;
+        height: 180px;
+    }
+
+    .palaioGG .main .title-container h2 {
+        font-size: 1.4rem;
+    }
+
+    #stripe_top, #stripe_bottom { display: none; }
+}
+
+
+ /* The Overlay (background) */
+.overlay {
+    /* Height & width depends on how you want to reveal the overlay (see JS below) */   
+    height: 100%;
+    width: 0;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    background-color: rgb(2,59,71); /* Black fallback color */
+    background-color: rgba(2,59,71, 0.96); /* Black w/opacity */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+
+/* Position the content inside the overlay */
+.overlay-content {
+    position: relative;
+    top: 25%; /* 25% from the top */
+    width: 100%; /* 100% width */
+    text-align: center; /* Centered text/links */
+    margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+}
+
+/* The navigation links inside the overlay */
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block; /* Display block instead of inline */
+    transition: 0.3s; /* Transition effects on hover (color) */
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+@media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+}
+
+
+/*navigation menu*/
+
+.palaioGG .main .ham-menu {
+    font-size: 35px;
+    text-indent: 10px;
+    margin-top: 10px;
+    position: fixed;
+    z-index: 2;
+}
+
+#nav-icon3 {
+  width: 50px;
+  height: 45px;
+  position: fixed;
+  margin: 20px auto;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  cursor: pointer;
+  z-index: 2;
+}
+
+#nav-icon3 span {
+  display: block;
+  position: absolute;
+  height: 7px;
+  width: 100%;
+  background: #113300;
+  border-radius: 9px;
+  opacity: 1;
+  left: 0;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .25s ease-in-out;
+  -moz-transition: .25s ease-in-out;
+  -o-transition: .25s ease-in-out;
+  transition: .25s ease-in-out;
+}
+
+#nav-icon3.open span { background-color: #fff; }
+
+#nav-icon3 span:nth-child(1) {
+  top: 0px;
+}
+
+#nav-icon3 span:nth-child(2),#nav-icon3 span:nth-child(3) {
+  top: 15px;
+}
+
+#nav-icon3 span:nth-child(4) {
+  top: 30px;
+}
+
+#nav-icon3.open span:nth-child(1) {
+  top: 18px;
+  width: 0%;
+  left: 50%;
+}
+
+#nav-icon3.open span:nth-child(2) {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+#nav-icon3.open span:nth-child(3) {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+#nav-icon3.open span:nth-child(4) {
+  top: 18px;
+  width: 0%;
+  left: 50%;
+}

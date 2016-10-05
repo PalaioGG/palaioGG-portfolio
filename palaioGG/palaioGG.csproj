@@ -193,6 +193,12 @@
     <Content Include="Content\bootstrap\bootstrap-reboot.scss" />
     <Content Include="Content\bootstrap\bootstrap-grid.scss" />
     <Content Include="Content\bootstrap\bootstrap-flex.scss" />
+    <Content Include="fonts\Whipsmart.ttf" />
+    <Content Include="fonts\AMBROSIA_DEMO.ttf" />
+    <Content Include="fonts\Pinstripe_Limo.ttf" />
+    <Content Include="fonts\whitrabt.ttf" />
+    <Content Include="fonts\Walkway_Black.ttf" />
+    <Content Include="fonts\chintzy.ttf" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -207,8 +213,6 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="img\avatar.jpg" />
-    <Content Include="img\jumbotron.jpg" />
-    <Content Include="img\jumbotron1.jpg" />
     <Content Include="index.html" />
     <Content Include="js\mainController.js" />
     <Content Include="scripts\ai.0.22.19-build00125.js" />
