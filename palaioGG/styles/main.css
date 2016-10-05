@@ -246,7 +246,8 @@
     transform: rotate(35deg); 
 }
 
-@media screen and (max-device-width: 658px) {
+/*responsive*/
+@media screen and (max-width: 658px) {
     .palaioGG .main .avatar {
         width: 180px;
         height: 180px;
@@ -257,6 +258,32 @@
     }
 
     #stripe_top, #stripe_bottom { display: none; }
+}
+
+/*full hd phones*/
+@media screen and (max-device-width: 1080px) and (max-device-height: 1920px) {
+    #stripe_top, #stripe_bottom { display: none; }
+}
+
+/*iphone 5*/
+@media screen and (max-device-width: 320px) and (max-device-height: 580px) {
+    .palaioGG .main .avatar-wrapper {  
+        width: 150px;
+        height: 150px;
+        margin-top: 45px;
+        margin-bottom: 40px;
+    }
+
+    .palaioGG .main .avatar {
+        width: 150px;
+        height: 150px;
+    }
+
+    .palaioGG .main .title-container h2 {  }
+    .palaioGG .main .title-container #interested { font-size: 1.4rem; }
+    .palaioGG .main .title-container #web { font-size: 1.8rem; }
+    .palaioGG .main .title-container #design { font-size: 1.9rem; }
+    .palaioGG .main .title-container #substance { color: #E0493A; font-family: Ambrosia; font-weight: 900; text-transform: uppercase; font-size: 1.8rem; }
 }
 
 
