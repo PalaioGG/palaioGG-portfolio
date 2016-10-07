@@ -6,161 +6,17 @@
     
 }
 
-.palaioGG .navbar {
-    height: 100px;
-    background-color: black;
-}
-
-.palaioGG .version-badge { width: 150px; height: 60px; border-radius: 50%; border: 1px solid red; color: red; float: right; margin-top: -206px; margin-right: -335px; }
-.palaioGG .version-title { line-height: 3.5; text-indent: 11px; font-size: 16px; }
-
-.icons-container { width: 230px; position: absolute; left: 15px; top: 70px; }
-
-.palaioGG .menu-wrapper .menu-icons .fa { color: #bfbfbf; }
-.palaioGG .menu-wrapper .menu-icons.contact-link { float: right; line-height: 6; text-indent: -23px; }
-.palaioGG .menu-wrapper .menu-icons.projects-link { float: left; text-indent: 33px; }
-.palaioGG .menu-wrapper .menu-icons.skills-link { line-height: 6; float: left; text-indent: -8px; }
-
-
-.palaioGG .avatar-wrapper {
-    width: 150px;
-    height: 150px;
+#construction_msg {
+    color: white;
+    bottom: 0;
+    right: 18px;
+    bottom: 18px;
     position: absolute;
-    top: 30px;
-    left: 40px;
-    margin: 0 auto;
+    text-align: center;
 }
 
-.palaioGG .avatar {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    /*border: 4px solid #fff;*/
-    margin: 0 auto;
-}
 
-.palaioGG .menu-wrapper {
-    width: 230px;
-    height: 230px;
-    margin: 0 auto;
-    position: relative;
-    border-radius: 50%;
-    background-color: #39215E;
-    margin-top: -10px;
-}
-
-.palaioGG .menu-wrapper .menu-icons {
-    display: inline-block;
-    line-height: 18;
-    text-indent: 7px;
-}
-
-.palaioGG .menu-wrapper .menu-icons.skills-link {  }
-.palaioGG .menu-wrapper .menu-icons.projects-link {  }
-.palaioGG .menu-wrapper .menu-icons.contact-link {  }
-
-.palaioGG .navbar .menu-list-item {
-    color: #fff;
-    margin: 25px;
-}
-
-.palaioGG .jumbotron { padding: 0!important; margin-bottom: 0!important; }
-
-.palaioGG .jumbotron .main-img {
-    width: 100%;
-    height: 800px;
-}
-
-.palaioGG .skillset {
-    height: 800px;
-    padding-top: 40px;
-    background-color: black;
-    color: #fff;
-}
-
-.palaioGG .title-straight-line { 
-    border-top: 1px solid white; 
-    width: 300px; 
-    height: 2px; 
-    display: block;
-}
-
-.palaioGG .skillset .skillset-container { padding-top: 80px; }
-.palaioGG .skillset .skillset-container .border-line { border-right: 2px solid white; }
-
-.palaioGG .skillset .skill-wrapper {
-    height: 200px;
-}
-
-.palaioGG .skillset .skill-wrapper .logo-holder { width: 60px; display: block; margin: 0 auto; padding: 20px; margin-bottom: 20px; }
-.palaioGG .skillset .skill-wrapper .skill-logo { width: 60px; }
-.palaioGG .skillset .skill-wrapper .skill-logo.float-fix { float: right; margin-bottom: 40px; }
-.palaioGG .skillset .skill-wrapper .skill-title { bottom: 20px; }
-
-/*projects section*/
-.palaioGG .projects {
-    height: 800px;
-    background-color: #071014;
-    color: white;
-    padding-top: 40px;
-}
-
-/*contact section*/
-.palaioGG .contact {
-    height: 450px;
-    background-color: black;
-    color: white;
-    padding-top: 40px;
-}
-
-.palaioGG .contact .contact-container {
-    padding: 40px 0;
-}
-
-.border-ruler { border: 1px solid white; }
-
-
-/*c3 charts*/
-#donut-html-chart,
-#donut-css-chart,
-#donut-bootstrap-chart,
-#donut-js-chart,
-#donut-angular-chart,
-#donut-will-chart { height: 150px; }
-
-#donut-html-chart .c3-arc-skill-remain,
-#donut-css-chart .c3-arc-skill-remain,
-#donut-bootstrap-chart .c3-arc-skill-remain,
-#donut-js-chart .c3-arc-skill-remain,
-#donut-angular-chart .c3-arc-skill-remain,
-#donut-will-chart .c3-arc-skill-remain { display: none; }
-
-#donut-html-chart .c3-arc-skill-remain,
-#donut-css-chart .c3-arc-skill-remain,
-#donut-bootstrap-chart .c3-arc-skill-remain,
-#donut-js-chart .c3-arc-skill-remain,
-#donut-angular-chart .c3-arc-skill-remain,
-#donut-will-chart .c3-arc-skill-remaim .c3-shapes-skill-remain text { display: none; color: pink; }
-
-/*remove border*/
-#donut-html-chart .c3-chart-arc path,
-#donut-css-chart .c3-chart-arc path,
-#donut-bootstrap-chart .c3-chart-arc path,
-#donut-js-chart .c3-chart-arc path,
-#donut-angular-chart .c3-chart-arc path,
-#donut-will-chart .c3-chart-arc path { stroke: none; }
-
-/*remove legend*/
-#donut-html-chart .c3-legend-item,
-#donut-css-chart .c3-legend-item,
-#donut-bootstrap-chart .c3-legend-item,
-#donut-js-chart .c3-legend-item,
-#donut-angular-chart .c3-legend-item,
-#donut-will-chart .c3-legend-item { opacity: 0; display: none; }
-
-
-/*new portfolio*/
-
+/*fonts region*/
 @font-face {
     font-family: Walkway;
     src: url(../fonts/Walkway_Black.ttf);
@@ -185,7 +41,9 @@
     font-family: Ambrosia;
     src: url(../fonts/AMBROSIA_DEMO.ttf);
 }
+/*endregion*/
 
+/*main region*/
 .palaioGG .main {
     width: 100%;
     height: 100vh;
@@ -200,6 +58,7 @@
 .palaioGG .main .avatar-wrapper {
     width: 250px;
     height: 250px;
+    margin: 0 auto;
     margin-top: 9%;
     position: initial;
 }
@@ -433,14 +292,14 @@
 
 .stripe-container {
     position: relative;
-    border: 1px solid blue;
+    /*border: 1px solid blue;*/
     height: 500px;
     top: -400px;
 }
 
 .stripe2_wrapper {
     position: absolute;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     width: 30%;
     height: 100%;
     left: 0;
@@ -448,7 +307,7 @@
 
 .stripe3_wrapper {
     position: absolute;
-    border: 1px solid green;
+    /*border: 1px solid green;*/
     width: 70%;
     height: 100%;
     right: 0;
@@ -459,8 +318,8 @@
     position: absolute;
     border-top: 5px solid black;
     border-radius: 20px;
-    right: -95px;
-    bottom: 57.5%;
+    right: -92px;
+    bottom: 57.35%;
     /*margin-left: -38%;*/
     z-index: 5; 
     width: 1000px; 
@@ -487,3 +346,19 @@
     z-index: 10;
 }
 
+.palaioGG .about .about-content {
+    margin-top: -300px;
+}
+
+.palaioGG .about .about-content .about-text {
+    margin-top: 40px;
+    font-size: 18px;
+    text-align: justify;
+}
+/*endregion*/
+
+/*skillz region*/
+.palaioGG .skills {
+    height: 100vh;
+    background-color: #7F7960;
+}
