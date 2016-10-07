@@ -34,8 +34,8 @@
     <!-- LinkedIn Badge -->
     <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
 </head>
-<body ng-controller="palaioController">
-    <div class="palaioGG">
+<body id="container1" ng-controller="palaioController">
+    <div class="palaioGG" id="container2">
         <!--<div class="container-fluid">
             <div class="row">
                 <div class="col-xs-12">
@@ -241,6 +241,11 @@
             </div>
         </div>-->
         <div class="container-fluid">
+            <script>
+                var parent = document.getElementById('container1');
+                var child = document.getElementById('container2');
+                child.style.paddingRight = child.offsetWidth - child.clientWidth + "px";
+            </script>
             <div class="row">
                 <div class="main">
                     <div class="col-xs-12">
@@ -255,7 +260,7 @@
                         </div>
                         <div id="myNav" class="overlay">
                             <div class="overlay-content">
-                                <a href="#">About</a>
+                                <a href="#about">About</a>
                                 <a href="#">Skills</a>
                                 <a href="#">Projects</a>
                                 <a href="#">Contact</a>
@@ -279,7 +284,18 @@
                             </div>
                         </div>
                         <div id="stripe_top"></div>
-                        <div id="stripe_bottom"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="about" id="about">
+                    <div class="stripe-container">
+                        <div class="stripe2_wrapper">
+                            <div id="stripe2"></div>
+                        </div>
+                        <div class="stripe3_wrapper">
+                            <div id="stripe3"></div>
+                        </div>
                     </div>
                 </div>
             </div>

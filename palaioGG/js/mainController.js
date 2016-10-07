@@ -31,6 +31,10 @@ myApp.controller('palaioController', [
             };
         };
 
+        window.onscroll = function (e) {
+            console.log("scrolling");
+        }
+
 
     }
 ]);
