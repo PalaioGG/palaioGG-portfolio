@@ -347,7 +347,40 @@
 }
 
 .palaioGG .about .about-content {
-    margin-top: -300px;
+    margin-top: -553px;
+    z-index: 5;
+}
+
+.palaioGG .about .cityscape-wrapper {
+    position: relative;
+    width: 68%;
+    height: 70vh;
+    /*border: 1px solid orange;*/
+    margin-left: -230px;
+    margin-top: -400px;
+}
+
+.palaioGG .about .cityscape {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.palaioGG .about .cityscape.shadow {
+    z-index: 0;
+    opacity: .15;
+    margin-left: -5px;
+    margin-top: -2px;
+}
+
+.palaioGG .about .cityscape.bg {
+    z-index: 1;
+}
+
+.palaioGG .about .cityscape.real {
+    z-index: 3;
+    opacity: .3;
+    
 }
 
 .palaioGG .about .about-content .about-text {
@@ -355,6 +388,8 @@
     font-size: 18px;
     text-align: justify;
 }
+
+.palaioGG .about .about-content .about-text .fa-heart { color: #E0493A; }
 /*endregion*/
 
 /*skillz region*/

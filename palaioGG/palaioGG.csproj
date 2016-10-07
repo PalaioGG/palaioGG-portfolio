@@ -100,6 +100,9 @@
   <ItemGroup>
     <Content Include="img\angular_logo.png" />
     <Content Include="img\Boostrap_logo.svg" />
+    <Content Include="img\cityscape.png" />
+    <Content Include="img\cityscape_bg.png" />
+    <Content Include="img\cityscape_shadow.png" />
     <Content Include="img\css_logo.png" />
     <Content Include="img\html_logo.png" />
     <Content Include="img\javascript_logo.png" />
