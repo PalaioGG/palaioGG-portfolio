@@ -1020,6 +1020,7 @@
     <Content Include="scripts\jquery-3.1.0.slim.js" />
     <Content Include="scripts\jquery-3.1.0.slim.min.js" />
     <Content Include="styles\main.css" />
+    <Content Include="styles\responsive.css" />
     <Content Include="Web.config" />
     <Content Include="scripts\version.json" />
   </ItemGroup>
