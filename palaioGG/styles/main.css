@@ -2,15 +2,7 @@
     overflow-x: hidden;
 }
 
-#construction_msg {
-    color: white;
-    bottom: 0;
-    right: 18px;
-    bottom: 18px;
-    position: absolute;
-    text-align: center;
-}
-
+.palaioGG { overflow-x: hidden; }
 
 /*fonts region*/
 @font-face {
@@ -39,104 +31,30 @@
 }
 /*endregion*/
 
-/*main region*/
-.palaioGG .main {
-    width: 100%;
-    height: 100vh;
-    background-color: #FFF3C1;
-    /*background-image: url(../img/brutalism.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;*/
+/*generic region*/
+#construction_msg {
+    color: white;
+    bottom: 0;
+    right: 18px;
+    bottom: 18px;
+    position: absolute;
+    text-align: center;
 }
 
-    .palaioGG .main #version {
-        margin-top: 20px;
-        z-index: 3;
-        position: relative;
-    }
-
-    .palaioGG .main .avatar-wrapper {
-        width: 250px;
-        height: 250px;
-        margin: 0 auto;
-        margin-top: 9%;
-        position: initial;
-    }
-
-    .palaioGG .main .avatar {
-        width: 250px;
-        height: 250px;
-        display: block;
-        margin: 0 auto;
-        border-radius: 50%;
-        border: 2px solid #A7A37E;
-    }
-
-    .palaioGG .main .title-container {
-        width: 100%;
-        text-align: center;
-        display: block;
-        margin-top: 2%;
-    }
-
-        /*title font region*/
-        .palaioGG .main .title-container h2 {
-            font-family: Walkway;
-        }
-
-        .palaioGG .main .title-container #front_dev {
-            color: #55595E;
-            font-family: Whipsmart;
-            font-weight: bold;
-        }
-
-        .palaioGG .main .title-container #interested {
-            letter-spacing: 12px;
-            text-transform: uppercase;
-            font-size: 1.8rem;
-        }
-
-        .palaioGG .main .title-container #web {
-            color: #55595E;
-            font-family: Chintzy;
-            font-size: 2.4rem;
-        }
-
-        .palaioGG .main .title-container #design {
-            color: #E08631;
-            font-family: Pinstripe;
-            text-transform: uppercase;
-            font-size: 2.1rem;
-            letter-spacing: 2px;
-        }
-
-        .palaioGG .main .title-container #substance {
-            color: #E0493A;
-            font-family: Ambrosia;
-            font-weight: 900;
-            text-transform: uppercase;
-            font-size: 2.3rem;
-        }
+.bg-layer { z-index: 0; }
+.content-layer { z-index: 10 }
+.stripes-layer { z-index: 20; }
+.graphics-layer { z-index: 30; }
 /*endregion*/
 
-#stripe_top {
-    border-top: 5px solid black;
-    border-radius: 20px;
-    margin-top: -600px;
-    float: right;
-    margin-right: -200px;
-    z-index: 9999;
-    width: 100vh;
-    transform: rotate(35deg);
-}
-
+/*navigation menu region*/
 
 .overlay {
     /* Height & width depends on how you want to reveal the overlay (see JS below) */
     height: 100%;
     width: 0;
     position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
+    z-index: 998; /* Sit on top */
     left: 0;
     top: 0;
     background-color: rgb(2,59,71); /* Black fallback color */
@@ -174,17 +92,7 @@
     }
 }
 
-
-/*navigation menu*/
-
-.palaioGG .main .ham-menu {
-    font-size: 35px;
-    text-indent: 10px;
-    margin-top: 10px;
-    position: fixed;
-    z-index: 2;
-}
-
+/*menu*/
 #nav-icon3 {
     width: 50px;
     height: 45px;
@@ -199,7 +107,7 @@
     -o-transition: .5s ease-in-out;
     transition: .5s ease-in-out;
     cursor: pointer;
-    z-index: 2;
+    z-index: 999;
 }
 
     #nav-icon3 span {
@@ -262,14 +170,94 @@
         width: 0%;
         left: 50%;
     }
+/*endregion*/
 
+/*main region*/
+.palaioGG .main {
+    width: 100%;
+    height: 100vh;
+    background-color: #FFF3C1;
+}
+
+    .palaioGG .main #version {
+        margin-top: 20px;
+        z-index: 3;
+        position: relative;
+    }
+
+    .palaioGG .main .avatar-wrapper {
+        width: 250px;
+        height: 250px;
+        margin: 0 auto;
+        margin-top: 20vh;
+        position: initial;
+    }
+
+    .palaioGG .main .avatar {
+        width: 250px;
+        height: 250px;
+        display: block;
+        margin: 0 auto;
+        border-radius: 50%;
+        border: 2px solid #A7A37E;
+    }
+
+    .palaioGG .main .title-container {
+        width: 100%;
+        text-align: center;
+        display: block;
+        margin-top: 2%;
+    }
+
+        /*title font region*/
+        .palaioGG .main .title-container h2 {
+            font-family: Walkway;
+        }
+
+        .palaioGG .main .title-container #front_dev {
+            color: #55595E;
+            font-family: Whipsmart;
+            font-weight: bold;
+        }
+
+        .palaioGG .main .title-container #interested {
+            letter-spacing: 12px;
+            text-transform: uppercase;
+            font-size: 1.8rem;
+        }
+
+        .palaioGG .main .title-container #web {
+            color: #55595E;
+            font-family: Chintzy;
+            font-size: 2.4rem;
+        }
+
+        .palaioGG .main .title-container #design {
+            color: #E08631;
+            font-family: Pinstripe;
+            text-transform: uppercase;
+            font-size: 2.1rem;
+            letter-spacing: 2px;
+        }
+
+        .palaioGG .main .title-container #substance {
+            color: #E0493A;
+            font-family: Ambrosia;
+            font-weight: 900;
+            text-transform: uppercase;
+            font-size: 2.3rem;
+        }
+        /*endregion*/
+/*endregion*/
+
+/*stripes n patches region*/
 #stripe_top {
     border-top: 5px solid black;
     border-radius: 20px;
     margin-top: -600px;
     float: right;
     margin-right: -200px;
-    z-index: 5;
+    z-index: 9999;
     width: 100vh;
     transform: rotate(35deg);
 }
@@ -312,10 +300,20 @@
     left: -210px;
 }
 
+#patch4 {
+    z-index: 0;
+    height: 20%;
+    width: 100%;
+    position: absolute;
+    background-color: #FFF3C1;
+    bottom: 0;
+    left: 0;
+}
+
 .stripe3_wrapper {
     position: absolute;
     /*border: 1px solid green;*/
-    background-color: #FFF3C1;
+    /*background-color: #FFF3C1;*/
     width: 70%;
     height: 100%;
     right: 0;
@@ -367,7 +365,7 @@
     border-radius: 20px;
 }
 
-.stripe5_wrapper {
+#stripe5_wrapper {
     position: absolute;
     /*border: 1px solid red;*/
     width: 30%;
@@ -386,6 +384,45 @@
     transform: rotate(35deg);
 }
 
+#patch5 {
+    width: 100%;
+    height: 400px;
+    background-color: #7F7960;
+    position: absolute;
+    top: 5px;
+}
+
+#patch6 {
+    width: 600px;
+    height: 300px;
+    background-color: #7F7960;
+    position: absolute;
+    top: 144px;
+    left: -139px;
+    transform: rotate(35deg);
+    z-index: 1;
+}
+
+#patch7-guide {
+    border: 1px solid pink;
+    top: 0;
+    right: 0;
+    position: absolute;
+    width: 70%;
+    height: 100%;
+}
+
+#patch7 {
+    width: 500px;
+    height: 252px;
+    background-color: #E5DAAD;
+    border: 1px solid black;
+    position: absolute;
+    bottom: 162px;
+    right: -200px;
+    transform: rotate(35deg);
+}
+/*endregion*/
 
 /*about region*/
 .palaioGG .about {
@@ -397,6 +434,8 @@
     .palaioGG .about .about-content {
         margin-top: -600px;
         z-index: 5;
+        padding-right: 30px;
+        padding-left: 140px;
     }
 
     .palaioGG .about .cityscape-wrapper {
@@ -432,13 +471,12 @@
 
     .palaioGG .about .cityscape-wrapper.reflection-wrapper {
         position: relative;
-        width: 97.5%;
+        width: 97.15%;
         height: 70vh;
         /*border: 1px solid orange;*/
         margin-left: -230px;
         margin-top: 0px;
     }
-
 
     .palaioGG .about .cityscape.reflection {
         opacity: .4;
@@ -446,6 +484,7 @@
         -o-transform: scale(1,-1);
         -webkit-transform: scale(1,-1);
         transform: scale(1,-1);
+        bottom: -100%;
     }
 
     .palaioGG .about .about-content .about-text {
@@ -461,6 +500,11 @@
 
 /*skills region*/
 .palaioGG .skills {
-    height: 100vh;
+    height: 120vh;
     background-color: #7F7960;
+    padding-top: 17%;
+}
+
+.palaioGG .skills h2 {
+    text-align: center;
 }

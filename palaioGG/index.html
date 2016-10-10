@@ -39,7 +39,7 @@
     <div class="palaioGG" id="container2">
         <div class="container-fluid">
             <div class="row">
-                <div class="main">
+                <div class="main bg-layer">
                     <div class="col-xs-12">
                         <div id="nav-icon3" ng-click="controlNav()" ng-class="{'open': menu_visible === true}">
                             <span></span>
@@ -64,14 +64,14 @@
                         </div>
                         <div class="row">
                             <div class="col-xs-12">
-                                <div class="avatar-wrapper">
+                                <div class="avatar-wrapper content-layer">
                                     <img class="avatar" src="img/avatar.jpg" />
                                 </div>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-xs-12">
-                                <div class="title-container">
+                                <div class="title-container content-layer">
                                     <h2>Motivated <span id="front_dev">Front-End Developer</span></h2>
                                     <h2 id="interested">Interested in</h2>
                                     <h2><span id="web">web development</span> and <span id="design">design</span></h2>
@@ -79,40 +79,41 @@
                                 </div>
                             </div>
                         </div>
-                        <div id="stripe_top"></div>
+                        <div class="stripes-layer" id="stripe_top"></div>
                     </div>
                 </div>
             </div>
             <div class="row">
-                <div class="about" id="about">
+                <div class="about bg-layer" id="about">
                     <div class="stripe-container">
                         <div class="stripe2_wrapper">
-                            <div id="stripe2"></div>
-                            <div id="patch2"></div>
+                            <div class="stripes-layer" id="stripe2"></div>
+                            <!--<div class="bg-layer" id="patch2"></div>-->
                         </div>
-                        <div class="stripe3_wrapper">
-                            <div id="stripe3"></div>
-                            <div id="patch3"></div>
+                        <div class="stripe3_wrapper bg-layer">
+                            <div class="stripes-layer" id="stripe3"></div>
+                            <!--<div class="bg-layer" id="patch3"></div>-->
+                            <!--<div class="bg-layer" id="patch4"></div>-->
                         </div>
                     </div>
-                    <div class="cityscape-wrapper">
+                    <div class="cityscape-wrapper graphics-layer">
                         <img class="cityscape shadow" src="img/cityscape_shadow.png" />
                         <img class="cityscape bg" src="img/cityscape_bg.png" />
                         <img class="cityscape real" src="img/cityscape.png" />
+                        <img class="cityscape reflection" src="img/cityscape_reflection.png" />
+
                     </div>
                     <div class="about-content">
-                        <div class="col-xs-5 offset-xs-7">
+                        <div class="col-md-6 offset-md-6 col-xs-12">
                             <h1 id="about_title">About</h1>
                             <div class="row">
-                                <div class="col-md-9">
+                                <div>
                                     <div class="about-text">
                                         <p>
-                                            My name is Giorgos Palaiologos. I'm a 26yo dude in <i class="fa fa-heart fa-2x" aria-hidden="true"></i> with Front-End developement.
-                                            I'm currently living in my home town, working alone, refining my programming skills and researching new technologies
-                                            to achieve the best possible outcome in any given ocassion. For the time being, I'm looking forward to
-                                            become the best version of my self and move again in Athens, so I can land
-                                            my new job opportunity and continue pursuing my dreams from there. During my six months internship I've gained valuable knowledge which
-                                            allowed me to further explore the techniques used in web programming.
+                                            My name is Giorgos Palaiologos. I'm a 26yo dude in <i class="fa fa-heart fa-2x" aria-hidden="true"></i> with Front-End development.
+                                            I'm currently living in my home town in Greece, working alone, refining my programming skills and researching new technologies. 
+                                            During my six months internship I've gained valuable knowledge which
+                                            allowed me to further explore the techniques used by professionals in web programming.
                                         </p>
                                         <p>
                                             I believe great things start first from the inside, so, I'm trying to be the greatest version of me,
@@ -128,19 +129,26 @@
                     <div class="stripe_container_about_bottom">
                         <div class="stripe4_wrapper">
                             <div id="stripe4"></div>
-                            <div class="cityscape-wrapper reflection-wrapper">
-                                <img class="cityscape reflection" src="img/cityscape.png" />
-                            </div>
+                            <div class="bg-layer" id="patch5"></div>
+                            <!--<div class="cityscape-wrapper reflection-wrapper">
+                                <img class="cityscape reflection" src="img/cityscape_reflection.png" />
+                            </div>-->
                         </div>
-                        <div class="stripe5_wrapper">
+                        <div id="stripe5_wrapper">
+                            <div class="bg-layer" id="patch6"></div>
                             <div id="stripe5"></div>
+                            <!--<div id="patch7-guide">
+                                <div class="bg-layer" id="patch7"></div>
+                            </div>-->
                         </div>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="skills" id="skills">
-
+                    <div class="col-lg-8 offset-lg-2">
+                        <h2>Skills</h2>
+                    </div>
                 </div>
             </div>
         </div>

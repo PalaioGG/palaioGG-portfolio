@@ -1,4 +1,47 @@
 ﻿/*responsive region*/
+@media only screen and (max-width : 1200px) {
+    .palaioGG .about .about-content {
+        padding-left: 30px;
+    }
+}
+
+@media only screen and (max-width : 992px) {
+    .palaioGG .about .about-content {
+        padding-left: 0px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+     /*about region*/
+    .palaioGG .about { 
+        position: relative;
+    }
+
+    .palaioGG .about .about-content {
+        position: absolute;
+        z-index: 5;
+        padding: 0 20px;
+        bottom: 40vh;
+    }
+
+    .palaioGG .about .about-content h1 {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .palaioGG .about .about-content p {
+        font-size: 16px;
+    }
+
+    .palaioGG .about .cityscape-wrapper {
+        margin: 0 auto;
+        height: 30vh;
+        bottom: 0px;
+        width: 100%;
+        position: absolute;
+    }
+}
+
 @media screen and (max-width: 658px) {
     .palaioGG .main .avatar {
         width: 180px;
@@ -9,7 +52,7 @@
         font-size: 1.4rem;
     }
 
-    #stripe_top, #stripe2 {
+    #stripe_top, #stripe2, #stripe3, #stripe4, #stripe5_wrapper, #stripe5, #patch5, #patch6 {
         display: none;
     }
 }
@@ -18,8 +61,36 @@
 
 /*full hd phones region*/
 @media screen and (max-device-width: 1080px) and (max-device-height: 1920px) {
-    #stripe_top, #stripe2 {
+    #stripe_top, #stripe2, #stripe3, #stripe4, #stripe5_wrapper, #stripe5, #patch5, #patch6 {
         display: none;
+    }
+     /*about region*/
+    .palaioGG .about { 
+        position: relative;
+    }
+
+    .palaioGG .about .about-content {
+        position: absolute;
+        z-index: 5;
+        padding: 0 20px;
+        bottom: 40vh;
+    }
+
+    .palaioGG .about .about-content h1 {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .palaioGG .about .about-content p {
+        font-size: 16px;
+    }
+
+    .palaioGG .about .cityscape-wrapper {
+        margin: 0 auto;
+        height: 30vh;
+        bottom: 0px;
+        width: 100%;
+        position: absolute;
     }
 }
 /*endregion*/
@@ -61,5 +132,23 @@
         text-transform: uppercase;
         font-size: 1.8rem;
     }
+
+    /*about region*/
+    .palaioGG .about .about-content {
+        position: absolute;
+        z-index: 5;
+        padding: 0 20px;
+        bottom: 30vh;
+    }
+
+    .palaioGG .about .about-content h1 {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .palaioGG .about .about-content p {
+        font-size: 12px;
+    }
+
 }
 /*endregion*/
