@@ -12,48 +12,122 @@
 }
 
 @media only screen and (max-width: 767px) {
-     /*about region*/
-    .palaioGG .about { 
+    /*main region*/
+    .palaioGG .main .avatar {
+        width: 200px;
+        height: 200px;
+    }
+
+    .palaioGG .main .title-container h2 {
+        font-size: 1.5rem;
+    }
+
+    .palaioGG .main .title-container #front_dev {
+        color: #55595E;
+        font-family: Whipsmart;
+        font-weight: bold;
+    }
+
+    .palaioGG .main .title-container #interested {
+        font-size: 1.6rem;
+    }
+
+    .palaioGG .main .title-container #web {
+        font-size: 2.1rem;
+    }
+
+    .palaioGG .main .title-container #design {
+        font-size: 2rem;
+        letter-spacing: 1px;
+    }
+
+    .palaioGG .main .title-container #substance {
+        font-size: 2rem;
+    }
+
+    /*about region*/
+    .palaioGG .about {
         position: relative;
     }
 
-    .palaioGG .about .about-content {
-        position: absolute;
-        z-index: 5;
-        padding: 0 20px;
-        bottom: 40vh;
-    }
+        .palaioGG .about .about-content {
+            position: absolute;
+            z-index: 5;
+            padding: 0 20px;
+            bottom: 40vh;
+        }
 
-    .palaioGG .about .about-content h1 {
-        font-size: 28px;
-        text-align: center;
-    }
+            .palaioGG .about .about-content h1 {
+                font-size: 28px;
+                text-align: center;
+            }
 
-    .palaioGG .about .about-content p {
-        font-size: 16px;
-    }
+            .palaioGG .about .about-content p {
+                font-size: 16px;
+            }
 
-    .palaioGG .about .cityscape-wrapper {
-        margin: 0 auto;
-        height: 30vh;
-        bottom: 0px;
-        width: 100%;
-        position: absolute;
-    }
+        .palaioGG .about .cityscape-wrapper {
+            margin: 0 auto;
+            height: 30vh;
+            bottom: 0px;
+            width: 100%;
+            position: absolute;
+        }
 }
 
 @media screen and (max-width: 658px) {
+
+
+    #stripe_top, #stripe2, #stripe3, #stripe4, #stripe5_wrapper, #stripe5, #patch5, #patch6, .stripe-container {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    /*main region*/
     .palaioGG .main .avatar {
         width: 180px;
         height: 180px;
     }
 
     .palaioGG .main .title-container h2 {
+        font-size: 1.5rem;
+    }
+
+    .palaioGG .main .title-container #interested {
         font-size: 1.4rem;
     }
 
-    #stripe_top, #stripe2, #stripe3, #stripe4, #stripe5_wrapper, #stripe5, #patch5, #patch6 {
-        display: none;
+    .palaioGG .main .title-container #web {
+        font-size: 1.8rem;
+    }
+
+    .palaioGG .main .title-container #design {
+        font-size: 1.8rem;
+        letter-spacing: 1px;
+    }
+
+    .palaioGG .main .title-container #substance {
+        font-size: 1.8rem;
+    }
+
+    /*about region*/
+    .palaioGG .about .about-content {
+        top: 13%;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .palaioGG .about .about-content h1 {
+        font-size: 24px;
+    }
+
+    .palaioGG .about .about-content p {
+        font-size: 14px;
+    }
+
+    .palaioGG .main .title-container #interested {
+        letter-spacing: 7px;
     }
 }
 /*endregion*/
@@ -64,34 +138,34 @@
     #stripe_top, #stripe2, #stripe3, #stripe4, #stripe5_wrapper, #stripe5, #patch5, #patch6 {
         display: none;
     }
-     /*about region*/
-    .palaioGG .about { 
+    /*about region*/
+    .palaioGG .about {
         position: relative;
     }
 
-    .palaioGG .about .about-content {
-        position: absolute;
-        z-index: 5;
-        padding: 0 20px;
-        bottom: 40vh;
-    }
+        .palaioGG .about .about-content {
+            position: absolute;
+            z-index: 5;
+            padding: 0 20px;
+            bottom: 40vh;
+        }
 
-    .palaioGG .about .about-content h1 {
-        font-size: 28px;
-        text-align: center;
-    }
+            .palaioGG .about .about-content h1 {
+                font-size: 28px;
+                text-align: center;
+            }
 
-    .palaioGG .about .about-content p {
-        font-size: 16px;
-    }
+            .palaioGG .about .about-content p {
+                font-size: 16px;
+            }
 
-    .palaioGG .about .cityscape-wrapper {
-        margin: 0 auto;
-        height: 30vh;
-        bottom: 0px;
-        width: 100%;
-        position: absolute;
-    }
+        .palaioGG .about .cityscape-wrapper {
+            margin: 0 auto;
+            height: 30vh;
+            bottom: 0px;
+            width: 100%;
+            position: absolute;
+        }
 }
 /*endregion*/
 
@@ -141,14 +215,13 @@
         bottom: 30vh;
     }
 
-    .palaioGG .about .about-content h1 {
-        font-size: 18px;
-        text-align: center;
-    }
+        .palaioGG .about .about-content h1 {
+            font-size: 18px;
+            text-align: center;
+        }
 
-    .palaioGG .about .about-content p {
-        font-size: 12px;
-    }
-
+        .palaioGG .about .about-content p {
+            font-size: 12px;
+        }
 }
 /*endregion*/
