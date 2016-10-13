@@ -138,6 +138,12 @@
     #stripe_top, #stripe2, #stripe3, #stripe4, #stripe5_wrapper, #stripe5, #patch5, #patch6 {
         display: none;
     }
+
+    /*main region*/
+    .palaioGG .main .avatar-wrapper {
+        margin-top: 10vh;
+    }
+
     /*about region*/
     .palaioGG .about {
         position: relative;
@@ -147,7 +153,7 @@
             position: absolute;
             z-index: 5;
             padding: 0 20px;
-            bottom: 40vh;
+            top: 7%;
         }
 
             .palaioGG .about .about-content h1 {
@@ -156,7 +162,7 @@
             }
 
             .palaioGG .about .about-content p {
-                font-size: 16px;
+                font-size: 14px;
             }
 
         .palaioGG .about .cityscape-wrapper {

@@ -509,4 +509,12 @@
 
 .palaioGG .skills h2 {
     text-align: center;
+    padding-bottom: 3%;
 }
+
+.palaioGG .skills .skillset {
+    border: 1px solid white;
+}
+
+.palaioGG .skills .skillset .skill-container { padding: 10px; }
+.palaioGG .skills .skillset .divider { height: 100%; border: 1px solid white; transform: rotate(90deg); }
