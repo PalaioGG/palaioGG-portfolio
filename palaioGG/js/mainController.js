@@ -28,9 +28,18 @@ myApp.controller('palaioController', [
 
         console.log($(window).scrollTop());
 
-        $scope.radius = 200;
+        console.log(window.innerWidth);
+
+        if (window.innerWidth < 540) {
+            $scope.radius = 150;
+        } else $scope.radius = 200;
+
         $scope.HTML = { name: 'HTML', percent: 74 };
-        $scope.CSS = { name: 'CSS', percent: 76 };
+        $scope.CSS = { name: 'CSS', percent: 72 };
+        $scope.bootstrap = { name: 'Bootstrap', percent: 70 };
+        $scope.responsive = { name: 'Responsive', percent: 68 };
+        $scope.javascript = { name: 'Javascript', percent: 54 };
+        $scope.angular = { name: 'AngularJS', percent: 48 };
 
     }
 ])
@@ -54,7 +63,7 @@ myApp.directive('d3Donut', function () {
 			.style('height', radius / 2 + 'px');
 
             var donutScale = d3.scale.linear().domain([0, 100]).range([0, 2 * Math.PI]);
-            var color = "#BFB690";
+            var color = "#FFF3C1";
             var data = [[0, 100, "transparent"], [0, percent, color]];
 
             var arc = d3.svg.arc()
