@@ -1,4 +1,11 @@
 ﻿body {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    height: 100%;
     overflow-x: hidden;
 }
 
@@ -176,7 +183,8 @@
 .palaioGG .main {
     width: 100%;
     height: 100vh;
-    background-color: #FFF3C1;
+    min-height: 45vmax;
+    background-color: #EBDFB1;
 }
 
     .palaioGG .main #version {
@@ -185,17 +193,21 @@
         position: relative;
     }
 
+    .palaioGG .main .avatar-wrapper,
+    .palaioGG .main .avatar {
+        width: 15vmax;
+        height: 15vmax;
+        min-width: 8vmax;
+        min-height: 8vmax;
+    }
+
     .palaioGG .main .avatar-wrapper {
-        width: 250px;
-        height: 250px;
         margin: 0 auto;
         margin-top: 20vh;
         position: initial;
     }
 
     .palaioGG .main .avatar {
-        width: 250px;
-        height: 250px;
         display: block;
         margin: 0 auto;
         border-radius: 50%;
@@ -212,6 +224,7 @@
         /*title font region*/
         .palaioGG .main .title-container h2 {
             font-family: Walkway;
+            font-size: 1.7vmax;
         }
 
         .palaioGG .main .title-container #front_dev {
@@ -221,22 +234,22 @@
         }
 
         .palaioGG .main .title-container #interested {
-            letter-spacing: 12px;
+            letter-spacing: .9vmin;
             text-transform: uppercase;
-            font-size: 1.8rem;
+            font-size: 1.7vmax;
         }
 
         .palaioGG .main .title-container #web {
             color: #55595E;
             font-family: Chintzy;
-            font-size: 2.4rem;
+            font-size: 2.3vmax;
         }
 
         .palaioGG .main .title-container #design {
             color: #E08631;
             font-family: Pinstripe;
             text-transform: uppercase;
-            font-size: 2.1rem;
+            font-size: 2.1vmax;
             letter-spacing: 2px;
         }
 
@@ -245,7 +258,7 @@
             font-family: Ambrosia;
             font-weight: 900;
             text-transform: uppercase;
-            font-size: 2.3rem;
+            font-size: 2.3vmax;
         }
         /*endregion*/
 /*endregion*/
@@ -491,7 +504,7 @@
 
     .palaioGG .about .about-content .about-text {
         margin-top: 40px;
-        font-size: 18px;
+        font-size: 1vmax;
         text-align: justify;
     }
 
@@ -505,10 +518,13 @@
     height: 120vh;
     background-color: #7F7960;
     padding-top: 23%;
+    padding-top: 23vmax;
+    min-height: 80vmax;
 }
 
 .palaioGG .skills .skillset {
-    /*border: 1px solid white;*/
+    z-index: 20;
+    position: relative;
 }
 
 .palaioGG .skills .skills-title {
@@ -516,6 +532,8 @@
     font-variant: small-caps;
     text-align: center;
     padding-bottom: 5%;
+    z-index: 20;
+    position: relative;
 }
 
 .palaioGG .skills .skillset .skill-container { 
@@ -543,8 +561,11 @@
 .palaioGG .contact {
     background-color: #2B2921;
     color: #7F7960;
+    position: relative;
     height: 50vh;
 }
+
+.palaioGG .contact .contact-container { position: relative; height: 100%; overflow: auto; }
 
 .palaioGG .contact .contact-details {
     padding: 30px;
@@ -553,11 +574,12 @@
 
 .palaioGG .contact .contact-details h5 { padding-bottom: 7px; }
 
-.palaioGG .contact .contact-details .email { color: #FFF3C1; text-align: center; }
+.palaioGG .contact .contact-details .email { color: #FFF3C1; text-align: center; line-height: 2; }
 
-.palaioGG .contact .contact-details .social-bar a { text-decoration: none; transition: ease-in-out .25s; line-height: 1; }
-.palaioGG .contact .contact-details .social-bar a:hover { line-height: 0.1; cursor: pointer; }
+.palaioGG .contact .contact-details a { text-decoration: none; color: #FFF3C1; padding: 0 10px; }
+.palaioGG .contact .contact-details a:hover { color: #403D30; }
 
-.palaioGG .contact .contact-details .fa { padding: 0 10px; color: #FFF3C1; }
 
 .palaioGG .contact .closing-message { padding: 45px 15px; text-align: justify; }
+.palaioGG .contact .closing-message p { font-size: 1vw; }
+.palaioGG .contact .footer-rights h5 { font-size: 1.2vw; }

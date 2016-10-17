@@ -2,7 +2,8 @@
 
 myApp.controller('palaioController', [
     '$scope',
-    function ($scope) {
+    '$window',
+    function ($scope, $window) {
 
         $scope.menu_visible = false;
 
@@ -26,9 +27,26 @@ myApp.controller('palaioController', [
             };
         };
 
-        console.log($(window).scrollTop());
+        angular.element($window).bind('resize', function () {
+            var x = 200;
+            var y =  Math.round(window.innerWidth / 7);
+            if (y < 200 && y > 60) {
+                $scope.$apply(function () {
+                    $scope.radiusResize = y;
+                });
+            };
+            console.log('y: ' + y);
+            console.log('radius: ' + $scope.radius);
+        });
 
-        console.log(window.innerWidth);
+        //console.log($(window).scrollTop());
+
+        //console.log(window.innerWidth);
+
+        $scope.$watch('radiusResize', function(newValue, oldValue) {
+            $scope.radius = $scope.radiusResize;
+            console.log('WATCHradius: ' + $scope.radius);
+        });
 
         if (window.innerWidth < 540) {
             $scope.radius = 150;
@@ -53,9 +71,18 @@ myApp.directive('d3Donut', function () {
         },
         link: function (scope, element, attrs) {
 
-            var radius = scope.radius;
+            var radius = scope.radius
             var percent = scope.percent;
             var text = scope.text;
+
+            window.onresize = function () {
+                return scope.$apply;
+            };
+
+            scope.$watch('radius', function (newValue, oldValue) {
+                    radius = scope.radius;
+                    console.log("I see data change" + radius);
+            }, true);
 
             var svg = d3.select(element[0])
 			.append('svg')

@@ -3,17 +3,20 @@
     .palaioGG .about .about-content {
         padding-left: 30px;
     }
+    .palaioGG .about .about-content p { font-size: 1.2vmax; }
 }
 
 @media only screen and (max-width : 992px) {
     .palaioGG .about .about-content {
         padding-left: 0px;
     }
+
+    .palaioGG .contact .closing-message p { font-size: 14px; font-size: 1.5vw; }
 }
 
 @media only screen and (max-width: 767px) {
     /*main region*/
-    .palaioGG .main .avatar {
+    /*.palaioGG .main .avatar {
         width: 200px;
         height: 200px;
     }
@@ -43,7 +46,7 @@
 
     .palaioGG .main .title-container #substance {
         font-size: 2rem;
-    }
+    }*/
 
     /*about region*/
     .palaioGG .about {
@@ -63,7 +66,7 @@
             }
 
             .palaioGG .about .about-content p {
-                font-size: 16px;
+                font-size: 1.7vmax;
             }
 
         .palaioGG .about .cityscape-wrapper {
@@ -73,7 +76,19 @@
             width: 100%;
             position: absolute;
         }
-}
+
+    /*skills sections*/
+    .palaioGG .skills {
+        min-height: 150vmax;
+    }
+
+    .palaioGG .contact {
+        height: 70vh;
+    }
+
+        .palaioGG .contact .contact-details h5 { padding-top: 10px; }
+        .palaioGG .contact .closing-message p { font-size: 14px; font-size: 2vw; }
+        .palaioGG .contact .footer-rights h5 { font-size: 2vw; }
 
 @media screen and (max-width: 658px) {
 
@@ -81,11 +96,14 @@
     #stripe_top, #stripe2, #stripe3, #stripe4, #stripe5_wrapper, #stripe5, #patch5, #patch6, .stripe-container {
         display: none;
     }
+
+    .palaioGG .contact .closing-message { font-size: 14px; font-size: 2.3vw; }
+    .palaioGG .contact .footer-rights h5 { font-size: 2.3vw; }
 }
 
 @media screen and (max-width: 380px) {
     /*main region*/
-    .palaioGG .main .avatar {
+    /*.palaioGG .main .avatar {
         width: 180px;
         height: 180px;
     }
@@ -109,12 +127,16 @@
 
     .palaioGG .main .title-container #substance {
         font-size: 1.8rem;
-    }
+    }*/
 
     /*about region*/
     .palaioGG .about .about-content {
         top: 13%;
     }
+
+    /*contanct region*/
+    .palaioGG .contact .closing-message p { font-size: 14px; font-size: 3vw; }
+    .palaioGG .contact .footer-rights h5 { font-size: 3vw; }
 }
 
 @media screen and (max-width: 360px) {
@@ -122,9 +144,9 @@
         font-size: 24px;
     }
 
-    .palaioGG .about .about-content p {
+    /*.palaioGG .about .about-content p {
         font-size: 14px;
-    }
+    }*/
 
     .palaioGG .main .title-container #interested {
         letter-spacing: 7px;
@@ -140,9 +162,9 @@
     }
 
     /*main region*/
-    .palaioGG .main .avatar-wrapper {
+    /*.palaioGG .main .avatar-wrapper {
         margin-top: 10vh;
-    }
+    }*/
 
     /*about region*/
     .palaioGG .about {
@@ -178,7 +200,7 @@
 
 /*iphone 5*/
 @media screen and (max-device-width: 320px) and (max-device-height: 580px) {
-    .palaioGG .main .avatar-wrapper {
+    /*.palaioGG .main .avatar-wrapper {
         width: 150px;
         height: 150px;
         margin-top: 45px;
@@ -211,7 +233,7 @@
         font-weight: 900;
         text-transform: uppercase;
         font-size: 1.8rem;
-    }
+    }*/
 
     /*about region*/
     .palaioGG .about .about-content {
