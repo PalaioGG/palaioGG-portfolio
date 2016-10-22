@@ -55,7 +55,7 @@ myApp.controller('palaioController', [
         $scope.HTML = { name: 'HTML', percent: 74 };
         $scope.CSS = { name: 'CSS', percent: 72 };
         $scope.bootstrap = { name: 'Bootstrap', percent: 70 };
-        $scope.responsive = { name: 'Responsive', percent: 68 };
+        $scope.responsive = { name: 'Responsive', percent: 66 };
         $scope.javascript = { name: 'Javascript', percent: 54 };
         $scope.angular = { name: 'AngularJS', percent: 48 };
 

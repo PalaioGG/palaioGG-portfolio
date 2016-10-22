@@ -11,7 +11,8 @@
         padding-left: 0px;
     }
 
-    .palaioGG .contact .closing-message p { font-size: 14px; font-size: 1.5vw; }
+    .palaioGG .contact { min-height: 40vmax; }
+    .palaioGG .contact .closing-message p { font-size: 14px; font-size: 1.2vw; }
 }
 
 @media only screen and (max-width: 767px) {
@@ -82,11 +83,20 @@
         min-height: 150vmax;
     }
 
+    /*contact region*/
     .palaioGG .contact {
         height: 70vh;
+        min-height: 100vmax;
     }
 
-        .palaioGG .contact .contact-details h5 { padding-top: 10px; }
+        .palaioGG .contact .contact-title { font-size: 2.2vmax; }
+        .palaioGG .contact .connect-title,
+        .palaioGG .contact .subscribe-title { padding-top: 10px; font-size: 2.2vmax; }
+
+        .palaioGG .contact .contact-details .email { font-size: 1.8vmax; }
+
+        .palaioGG .contact .fa { font-size: 3vmax; }
+
         .palaioGG .contact .closing-message p { font-size: 14px; font-size: 2vw; }
         .palaioGG .contact .footer-rights h5 { font-size: 2vw; }
 
