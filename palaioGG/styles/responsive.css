@@ -68,6 +68,11 @@
         .palaioGG .contact .footer-rights h5 { font-size: 2vw; }
 
 @media screen and (max-width: 658px) {
+    .overlay a {
+        padding: 8px;
+        font-size: 7vmin;
+    }
+
     /*hamburgher*/
     #nav-icon3 span:nth-child(2), #nav-icon3 span:nth-child(3) {
         top: 12px;
