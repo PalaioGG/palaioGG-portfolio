@@ -11,6 +11,15 @@ myApp.controller('palaioController', [
             var nav = document.getElementById("myNav");
             var ver = document.getElementById("version");
             var con_msg = document.getElementById("construction_msg");
+            var body = document.getElementById("body");
+
+            $scope.closeNav = function () {
+                nav.style.width = "0%";
+                ver.style.color = "black";
+                con_msg.style.display = "none";
+                $scope.menu_visible = false;
+                body.style.overflow = "initial";
+            };
 
             if ($scope.menu_visible === false) {
                 $scope.menu_visible = true;
@@ -18,12 +27,10 @@ myApp.controller('palaioController', [
                 nav.style.width = "100%";
                 ver.style.color = "white";
                 con_msg.style.display = "block";
+                body.style.overflow = "hidden";
             }
             else {
-                $scope.menu_visible = false;
-                nav.style.width = "0%";
-                ver.style.color = "black";
-                con_msg.style.display = "none";
+                $scope.closeNav();
             };
         };
 
