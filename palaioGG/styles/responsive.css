@@ -16,39 +16,6 @@
 }
 
 @media only screen and (max-width: 767px) {
-    /*main region*/
-    /*.palaioGG .main .avatar {
-        width: 200px;
-        height: 200px;
-    }
-
-    .palaioGG .main .title-container h2 {
-        font-size: 1.5rem;
-    }
-
-    .palaioGG .main .title-container #front_dev {
-        color: #55595E;
-        font-family: Whipsmart;
-        font-weight: bold;
-    }
-
-    .palaioGG .main .title-container #interested {
-        font-size: 1.6rem;
-    }
-
-    .palaioGG .main .title-container #web {
-        font-size: 2.1rem;
-    }
-
-    .palaioGG .main .title-container #design {
-        font-size: 2rem;
-        letter-spacing: 1px;
-    }
-
-    .palaioGG .main .title-container #substance {
-        font-size: 2rem;
-    }*/
-
     /*about region*/
     .palaioGG .about {
         position: relative;
@@ -101,7 +68,14 @@
         .palaioGG .contact .footer-rights h5 { font-size: 2vw; }
 
 @media screen and (max-width: 658px) {
+    /*hamburgher*/
+    #nav-icon3 span:nth-child(2), #nav-icon3 span:nth-child(3) {
+        top: 12px;
+    }
 
+    #nav-icon3 span:nth-child(4) {
+        top: 24px;
+    }
 
     #stripe_top, #stripe2, #stripe3, #stripe4, #stripe5_wrapper, #stripe5, #patch5, #patch6, .stripe-container {
         display: none;
@@ -112,32 +86,17 @@
 }
 
 @media screen and (max-width: 380px) {
+    /*hamburgher*/
+    #nav-icon3 span:nth-child(2), #nav-icon3 span:nth-child(3) {
+        top: 10px;
+    }
+
+    #nav-icon3 span:nth-child(4) {
+        top: 20px;
+    }
+
+
     /*main region*/
-    /*.palaioGG .main .avatar {
-        width: 180px;
-        height: 180px;
-    }
-
-    .palaioGG .main .title-container h2 {
-        font-size: 1.5rem;
-    }
-
-    .palaioGG .main .title-container #interested {
-        font-size: 1.4rem;
-    }
-
-    .palaioGG .main .title-container #web {
-        font-size: 1.8rem;
-    }
-
-    .palaioGG .main .title-container #design {
-        font-size: 1.8rem;
-        letter-spacing: 1px;
-    }
-
-    .palaioGG .main .title-container #substance {
-        font-size: 1.8rem;
-    }*/
 
     /*about region*/
     .palaioGG .about .about-content {
