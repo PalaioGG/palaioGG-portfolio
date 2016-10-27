@@ -491,12 +491,13 @@
     background-color: #ABA381;
     padding: 10px; 
     border: 1px solid #403D30; 
-    height: 120px; 
+    height: 6.7vw;
+    min-height: 90px; 
     margin-bottom: 20px; 
     box-shadow: 10px 10px 5px #403D30;
 }
 .palaioGG .skills .skillset .skill-container .logo-wrapper { width: 100px; height: 100px;}
-.palaioGG .skills .skillset .skill-container .skill-logo { width: 50px; display: block; margin: 0 auto; }
+.palaioGG .skills .skillset .skill-container .skill-logo { width: 3vw; min-width: 30px; display: block; margin: 0 auto; }
 .palaioGG .skills .skillset .skill-container .skill-label { bottom: 0; }
 .palaioGG .skills .skillset .divider { height: 100%; border: 1px solid white; transform: rotate(90deg); }
 /*endregion*/
@@ -536,3 +537,41 @@
 .palaioGG .contact .closing-message { padding: 3vmax 15px; text-align: justify; }
 .palaioGG .contact .closing-message p { font-size: 1vw; }
 .palaioGG .contact .footer-rights h5 { font-size: 1.2vw; }
+
+
+
+
+/*TESTING*/
+
+.palaioGG .skills .skillset .skill-container .donut-container {
+		display: inline-block;
+		position: relative;
+		/*width: 100%;
+        height: 100%;*/
+        height: 5.5vw;
+        min-height: 70px;
+        width: 7vw;
+        min-width: 80px;
+        max-height: 110px;
+		/*padding-bottom: 100%;*/
+		vertical-align: top;
+		overflow: hidden;
+        border: 1px solid pink;
+}
+
+/*.palaioGG .skills .skillset .skill-container .donut-container d3-donut {
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	left: 0;
+}*/
+
+.palaioGG .skills .skillset .skill-container .donut-container .svg-content {
+    display: inline-block;
+	position: absolute;
+	top: 0;
+	left: 0;
+    /*width: 7vw;
+    min-width: 80px;
+    max-height: 110px;*/
+}
