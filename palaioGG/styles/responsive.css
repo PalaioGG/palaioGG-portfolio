@@ -57,6 +57,8 @@
         font-size: 12px;
     }
 
+    .palaioGG .skills .skillset .col-md-6:nth-child(odd) .skill-container .percentage-bar { left: 0; right: auto; }
+
     .palaioGG .skills .skills-familiar {
         font-size: 14px;
     }
