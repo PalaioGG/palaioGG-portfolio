@@ -48,6 +48,17 @@
     /*skills sections*/
     .palaioGG .skills {
         min-height: 150vmax;
+        padding-top: 30vmax;
+    }
+
+    .palaioGG .skills .skills-notice {
+        padding: 0 10%;
+        padding-bottom: 5%;
+        font-size: 12px;
+    }
+
+    .palaioGG .skills .skills-familiar {
+        font-size: 14px;
     }
 
     /*contact region*/
@@ -90,6 +101,11 @@
     .palaioGG .contact .footer-rights h5 { font-size: 2.3vw; }
 }
 
+/* Extra Small Devices, Phones */ 
+    @media only screen and (max-width : 480px) {
+
+    }
+
 @media screen and (max-width: 380px) {
     /*hamburgher*/
     #nav-icon3 span:nth-child(2), #nav-icon3 span:nth-child(3) {
@@ -107,6 +123,21 @@
     .palaioGG .about .about-content {
         top: 13%;
     }
+
+    /*skills region*/
+    .palaioGG .skills .skills-title { font-size: 2.3rem; }
+    .palaioGG .skills .skills-notice {
+        text-align: justify;
+        font-size: 10px;
+    }
+    .palaioGG .skills .skillset .skill-container .skill-label { display: none; }
+    .palaioGG .skills .skillset .skill-container { min-height: 50px; }
+    .palaioGG .skills .skillset .skill-container .donut-container {
+        min-height: 50px;
+        min-width: 50px;
+    }
+    .palaioGG .skills .skillset .skill-container .skill-logo { min-width: 20px; }
+    .palaioGG .skills .skills-familiar { font-size: 12px; }
 
     /*contanct region*/
     .palaioGG .contact .closing-message p { font-size: 14px; font-size: 3vw; }
@@ -128,102 +159,3 @@
 }
 /*endregion*/
 
-
-/*full hd phones region*/
-@media screen and (max-device-width: 1080px) and (max-device-height: 1920px) {
-    #stripe_top, #stripe2, #stripe3, #stripe4, #stripe5_wrapper, #stripe5, #patch5, #patch6 {
-        display: none;
-    }
-
-    /*main region*/
-    /*.palaioGG .main .avatar-wrapper {
-        margin-top: 10vh;
-    }*/
-
-    /*about region*/
-    .palaioGG .about {
-        position: relative;
-    }
-
-        .palaioGG .about .about-content {
-            position: absolute;
-            z-index: 5;
-            padding: 0 20px;
-            top: 7%;
-        }
-
-            .palaioGG .about .about-content h1 {
-                font-size: 28px;
-                text-align: center;
-            }
-
-            .palaioGG .about .about-content p {
-                font-size: 14px;
-            }
-
-        .palaioGG .about .cityscape-wrapper {
-            margin: 0 auto;
-            height: 30vh;
-            bottom: 0px;
-            width: 100%;
-            position: absolute;
-        }
-}
-/*endregion*/
-
-
-/*iphone 5*/
-@media screen and (max-device-width: 320px) and (max-device-height: 580px) {
-    /*.palaioGG .main .avatar-wrapper {
-        width: 150px;
-        height: 150px;
-        margin-top: 45px;
-        margin-bottom: 40px;
-    }
-
-    .palaioGG .main .avatar {
-        width: 150px;
-        height: 150px;
-    }
-
-    .palaioGG .main .title-container h2 {
-    }
-
-    .palaioGG .main .title-container #interested {
-        font-size: 1.4rem;
-    }
-
-    .palaioGG .main .title-container #web {
-        font-size: 1.8rem;
-    }
-
-    .palaioGG .main .title-container #design {
-        font-size: 1.9rem;
-    }
-
-    .palaioGG .main .title-container #substance {
-        color: #E0493A;
-        font-family: Ambrosia;
-        font-weight: 900;
-        text-transform: uppercase;
-        font-size: 1.8rem;
-    }*/
-
-    /*about region*/
-    .palaioGG .about .about-content {
-        position: absolute;
-        z-index: 5;
-        padding: 0 20px;
-        bottom: 30vh;
-    }
-
-        .palaioGG .about .about-content h1 {
-            font-size: 18px;
-            text-align: center;
-        }
-
-        .palaioGG .about .about-content p {
-            font-size: 12px;
-        }
-}
-/*endregion*/

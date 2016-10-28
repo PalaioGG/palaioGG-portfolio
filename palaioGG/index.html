@@ -43,7 +43,7 @@
                             <div class="overlay-content">
                                 <a ng-click="closeNav()" href="#about">About</a>
                                 <a ng-click="closeNav()" href="#skills">Skills</a>
-                                <a ng-click="closeNav()"  href="#projects">Projects</a>
+                                <a ng-click="closeNav()" href="#projects">Projects</a>
                                 <a ng-click="closeNav()" href="#contact">Contact</a>
                             </div>
                             <div id="construction_msg">
@@ -125,19 +125,25 @@
             <div class="row">
                 <div class="skills" id="skills">
                     <div class="col-lg-8 offset-lg-2">
-                        <h1 class="skills-title">Skills</h1>
+                        <h1 class="skills-title">Skills*</h1>
+                        <p class="skills-notice">
+                            * Knowledge can't be measured in percentages 'cause it's an abstract concept.
+                            That's why, you are never able to say: "I've achieved 100% knowledge of something".
+                            These values represent just a way to relatively value my skills.
+                        </p>
                         <div class="skillset content-layer">
                             <div class="row">
                                 <div class="col-xs-10 offset-xs-1 col-md-6 offset-md-0">
                                     <div class="skill-container">
+                                        <span class="percentage-bar" style="width: {{HTML.percent}}%;"></span>
                                         <div class="row">
-                                            <div class="col-xs-4">
-                                                <div class="donut-container">
+                                            <div class="col-xs-4 pull-xs-right pull-md-left">
+                                                <div class="donut-container pull-xs-right pull-md-left">
                                                     <d3-donut radius="radius" percent="HTML.percent"></d3-donut>
                                                 </div>
                                             </div>
                                             <div class="col-xs-8">
-                                                <div class="logo-wrapper pull-xs-right">
+                                                <div class="logo-wrapper pull-xs-left pull-md-right">
                                                     <img class="skill-logo" src="img/html_logo.png" />
                                                     <p class="skill-label text-xs-center">HTML</p>
                                                 </div>
@@ -147,6 +153,7 @@
                                 </div>
                                 <div class="col-xs-10 offset-xs-1 col-md-6 offset-md-0">
                                     <div class="skill-container">
+                                        <span class="percentage-bar" style="width: {{CSS.percent}}%;"></span>
                                         <div class="row">
                                             <div class="col-xs-8">
                                                 <div class="logo-wrapper pull-xs-left">
@@ -155,9 +162,9 @@
                                                 </div>
                                             </div>
                                             <div class="col-xs-4">
-                                                    <div class="donut-container pull-xs-right">
-                                                        <d3-donut radius="radius" percent="CSS.percent"></d3-donut>
-                                                    </div>
+                                                <div class="donut-container pull-xs-right">
+                                                    <d3-donut radius="radius" percent="CSS.percent"></d3-donut>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -166,14 +173,15 @@
                             <div class="row">
                                 <div class="col-xs-10 offset-xs-1 col-md-6 offset-md-0">
                                     <div class="skill-container">
+                                        <span class="percentage-bar" style="width: {{bootstrap.percent}}%;"></span>
                                         <div class="row">
-                                            <div class="col-xs-4">
-                                                <div class="donut-container">
+                                            <div class="col-xs-4 pull-xs-right pull-md-left">
+                                                <div class="donut-container pull-xs-right pull-md-left">
                                                     <d3-donut radius="radius" percent="bootstrap.percent"></d3-donut>
                                                 </div>
                                             </div>
                                             <div class="col-xs-8">
-                                                <div class="logo-wrapper pull-xs-right">
+                                                <div class="logo-wrapper pull-xs-left pull-md-right">
                                                     <img class="skill-logo" src="img/bootstrap_logo.svg" />
                                                     <p class="skill-label text-xs-center">Bootstrap</p>
                                                 </div>
@@ -183,17 +191,18 @@
                                 </div>
                                 <div class="col-xs-10 offset-xs-1 col-md-6 offset-md-0">
                                     <div class="skill-container">
+                                        <span class="percentage-bar" style="width: {{responsive.percent}}%;"></span>
                                         <div class="row">
                                             <div class="col-xs-8">
                                                 <div class="logo-wrapper pull-xs-left">
-                                                    <img class="skill-logo" src="img/responsive_logo.png" />
+                                                    <img style="margin-left: 10%" class="skill-logo" src="img/responsive_logo.png" />
                                                     <p class="skill-label text-xs-center">Responsive Design</p>
                                                 </div>
                                             </div>
                                             <div class="col-xs-4">
-                                                    <div class="donut-container pull-xs-right">
-                                                        <d3-donut radius="radius" percent="responsive.percent"></d3-donut>
-                                                    </div>
+                                                <div class="donut-container pull-xs-right">
+                                                    <d3-donut radius="radius" percent="responsive.percent"></d3-donut>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -202,14 +211,15 @@
                             <div class="row">
                                 <div class="col-xs-10 offset-xs-1 col-md-6 offset-md-0">
                                     <div class="skill-container">
+                                        <span class="percentage-bar" style="width: {{javascript.percent}}%;"></span>
                                         <div class="row">
-                                            <div class="col-xs-4">
-                                                <div class="donut-container">
+                                            <div class="col-xs-4 pull-xs-right pull-md-left">
+                                                <div class="donut-container pull-xs-right pull-md-left">
                                                     <d3-donut radius="radius" percent="javascript.percent"></d3-donut>
                                                 </div>
                                             </div>
                                             <div class="col-xs-8">
-                                                <div class="logo-wrapper pull-xs-right">
+                                                <div class="logo-wrapper pull-xs-left pull-md-right">
                                                     <img class="skill-logo" src="img/javascript_logo.png" />
                                                     <p class="skill-label text-xs-center">Javascript</p>
                                                 </div>
@@ -219,6 +229,7 @@
                                 </div>
                                 <div class="col-xs-10 offset-xs-1 col-md-6 offset-md-0">
                                     <div class="skill-container">
+                                        <span class="percentage-bar" style="width: {{angular.percent}}%;"></span>
                                         <div class="row">
                                             <div class="col-xs-8">
                                                 <div class="logo-wrapper pull-xs-left">
@@ -227,81 +238,88 @@
                                                 </div>
                                             </div>
                                             <div class="col-xs-4">
-                                                    <div class="donut-container pull-xs-right">
-                                                        <d3-donut radius="radius" percent="angular.percent"></d3-donut>
-                                                    </div>
+                                                <div class="donut-container pull-xs-right">
+                                                    <d3-donut radius="radius" percent="angular.percent"></d3-donut>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
+                            <div class="row">
+                                <div class="col-xs-10 offset-xs-1 col-md-6 offset-md-3">
+                                    <p class="skills-familiar">
+                                        Also familiar (or currently developing) with: Jade, jQuery, C#, MEAN Stack [Mongodb, Express.js, AngularJS, Node.js] and Git.
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="projects" id="projects">
-                    <div class="col-md-10 offset-md-1">
+                <div class="row">
+                    <div class="projects" id="projects">
+                        <div class="col-md-10 offset-md-1">
 
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="contact" id="contact">
-                    <div class="container-fluid">
-                        <div class="col-lg-8 offset-lg-2 col-xs-12">
-                            <div class="row">
-                                <div class="contact-details">
-                                    <div class="col-md-4 text-xs-center">
-                                        <h5 class="contact-title">Contact</h5>
-                                        <a class="email" href="mailto:geo.pal@hotmail.com">geo.pal@hotmail.com</a>
-                                    </div>
-                                    <div class="col-md-4 text-xs-center">
-                                        <h5 class="connect-title">Connect</h5>
-                                        <div class="social-bar">
+                <div class="row">
+                    <div class="contact" id="contact">
+                        <div class="container-fluid">
+                            <div class="col-lg-8 offset-lg-2 col-xs-12">
+                                <div class="row">
+                                    <div class="contact-details">
+                                        <div class="col-md-4 text-xs-center">
+                                            <h5 class="contact-title">Contact</h5>
+                                            <a class="email" href="mailto:geo.pal@hotmail.com">geo.pal@hotmail.com</a>
+                                        </div>
+                                        <div class="col-md-4 text-xs-center">
+                                            <h5 class="connect-title">Connect</h5>
+                                            <div class="social-bar">
 
-                                            <a href="https://gr.linkedin.com/in/giorgos-palaiologos-878958112" target="_blank">
-                                                <i class="fa fa-linkedin" aria-hidden="true"></i>
-                                            </a>
+                                                <a href="https://gr.linkedin.com/in/giorgos-palaiologos-878958112" target="_blank">
+                                                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                                </a>
 
-                                            <a href="https://github.com/PalaioGG" target="_blank">
-                                                <i class="fa fa-github" aria-hidden="true"></i>
-                                            </a>
+                                                <a href="https://github.com/PalaioGG" target="_blank">
+                                                    <i class="fa fa-github" aria-hidden="true"></i>
+                                                </a>
 
-                                            <a href="https://twitter.com/PalaioGG" target="_blank">
-                                                <i class="fa fa-twitter" aria-hidden="true"></i>
-                                            </a>
+                                                <a href="https://twitter.com/PalaioGG" target="_blank">
+                                                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                                                </a>
+
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 text-xs-center">
+                                            <h5 class="subscribe-title">Subscribe (soon to come)</h5>
+
+                                            <i class="fa fa-youtube fa-2x" aria-hidden="true"></i>
 
                                         </div>
                                     </div>
-                                    <div class="col-md-4 text-xs-center">
-                                        <h5 class="subscribe-title">Subscribe (soon to come)</h5>
-
-                                        <i class="fa fa-youtube fa-2x" aria-hidden="true"></i>
-
+                                </div>
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <div class="closing-message">
+                                            <p>A few words about this site:</p>
+                                            <p>
+                                                This site was designed and developed by me, as a mean to practice and test my capabilities.
+                                                Technologies I used include: HTML-CSS, Bootstrap and Javascript (AngularJS, jQuery). I also used the D3.js library for the donuts in skills section
+                                                and the Font-Awesome toolkit for the social icons. This product is not final and I'll keep updating the content whenever I find it necessary.
+                                                You can find the whole project in my GitHub account right <a href="https://github.com/PalaioGG/palaioGG.github.io" target="_blank">here</a>.
+                                                Thank you for visiting and I hope to hear from you soon!
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <div class="closing-message">
-                                        <p>A few words about this site:</p>
-                                        <p>
-                                            This site was designed and developed by me, as a mean to practice and test my capabilities.
-                                            Technologies I used include: HTML-CSS, Bootstrap and Javascript (AngularJS, jQuery). I also used the D3.js library for the donuts in skills section
-                                            and the Font-Awesome toolkit for the social icons. This product is not final and I'll keep updating the content whenever I find it necessary.
-                                            You can find the whole project in my GitHub account right <a href="https://github.com/PalaioGG/palaioGG.github.io" target="_blank">here</a>.
-                                            Thank you for visiting and I hope to hear from you soon!
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <div class="footer-rights">
-                                        <h5 class="text-xs-center">Powered by GitHub Pages</h5>
-                                        <h5 class="text-xs-center">Developed by Giorgos Palaiologos</h5>
-                                        <h5 class="text-xs-center">Copyright &copy; Giorgos Palaiologos - palaioGG&trade;</h5>
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <div class="footer-rights">
+                                            <h5 class="text-xs-center">Powered by GitHub Pages</h5>
+                                            <h5 class="text-xs-center">Developed by Giorgos Palaiologos</h5>
+                                            <h5 class="text-xs-center">Copyright &copy; Giorgos Palaiologos - palaioGG&trade;</h5>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -310,6 +328,5 @@
                 </div>
             </div>
         </div>
-    </div>
 </body>
 </html>

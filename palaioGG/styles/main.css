@@ -482,10 +482,24 @@
     color: #403D30;
     font-variant: small-caps;
     text-align: center;
-    padding-bottom: 5%;
     z-index: 20;
     position: relative;
 }
+.palaioGG .skills .skills-notice {
+    text-align: center;
+    padding: 0 30%;
+    padding-bottom: 5%;
+    font-size: 12px;
+}
+
+.palaioGG .skills .skills-familiar {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 16px;
+    color: #FFF3C1;
+}
+
+.palaioGG .skills .skills-familiar .skill-word { color: #FFF3C1; }
 
 .palaioGG .skills .skillset .skill-container { 
     background-color: #ABA381;
@@ -495,8 +509,11 @@
     min-height: 90px; 
     margin-bottom: 20px; 
     box-shadow: 10px 10px 5px #403D30;
+    position: relative;
 }
-.palaioGG .skills .skillset .skill-container .logo-wrapper { width: 100px; height: 100px;}
+
+.palaioGG .skills .skillset .percentage-bar { position: absolute; height: 100%; top: 0; left: 0; background-color: #B8AF8B; }
+.palaioGG .skills .skillset .skill-container .logo-wrapper { /*width: 100px; height: 100px;*/}
 .palaioGG .skills .skillset .skill-container .skill-logo { width: 3vw; min-width: 30px; display: block; margin: 0 auto; }
 .palaioGG .skills .skillset .skill-container .skill-label { bottom: 0; }
 .palaioGG .skills .skillset .divider { height: 100%; border: 1px solid white; transform: rotate(90deg); }
@@ -546,32 +563,18 @@
 .palaioGG .skills .skillset .skill-container .donut-container {
 		display: inline-block;
 		position: relative;
-		/*width: 100%;
-        height: 100%;*/
-        height: 5.5vw;
-        min-height: 70px;
+        height: 6vw;
         width: 7vw;
+        min-height: 70px;
         min-width: 80px;
-        max-height: 110px;
-		/*padding-bottom: 100%;*/
 		vertical-align: top;
 		overflow: hidden;
-        border: 1px solid pink;
+        border: 1px solid red;
 }
-
-/*.palaioGG .skills .skillset .skill-container .donut-container d3-donut {
-	display: inline-block;
-	position: absolute;
-	top: 0;
-	left: 0;
-}*/
 
 .palaioGG .skills .skillset .skill-container .donut-container .svg-content {
     display: inline-block;
 	position: absolute;
 	top: 0;
 	left: 0;
-    /*width: 7vw;
-    min-width: 80px;
-    max-height: 110px;*/
 }

@@ -71,88 +71,61 @@ myApp.directive('d3Donut', function ($window) {
     return {
         restrict: 'EΑ',
         scope: {
-            radius: '=',
             percent: '='
         },
         link: function (scope, element, attrs) {
 
-            //var radius = scope.radius
-            var radius = window.innerWidth / 8;
             var percent = scope.percent;
             var text = scope.text;
             var container = $('.donut-container');
             var width = container.width();
             var height = container.height();
-            var container_radius = (width + height ) / 2;
+            var container_radius = (width + height) / 2;
+            var radius = container_radius > 80 ? container_radius : container_radius * 1.65;
 
             console.log("cont radius: " + container_radius);
 
-            //window.onresize = function () {
-            //    scope.$apply(function () {
-            //        radius = window.innerWidth / 8;
-            //    });
-            //    console.log(radius);
-            //}; 
-            
+            var svg = d3.select(element[0])
+            .append('svg')
+            //.attr('width', width / 2 + 'px')
+            //.attr('height', height / 2 + 'px');
+            .attr("preserveAspectRatio", "xMinYMin meet")
+            .attr("viewBox", "-11 -2 80 80")
+            .classed("svg-content", true);
 
-            //scope.$watch(function () {
-            //    return angular.element($window)[0].innerWidth;
-            //}, function () {
-            //    scope.render(radius);
-            //});
+            var donutScale = d3.scale.linear().domain([0, 100]).range([0, 2 * Math.PI]);
+            var color = "#FFF3C1";
+            var data = [[0, 100, "transparent"], [0, percent, color]];
 
-            console.log(angular.element($window)[0].innerWidth);
+            var arc = d3.svg.arc()
+            //.innerRadius(radius / 6)
+            //.outerRadius(radius / 4)
+            .innerRadius(radius / 6)
+            .outerRadius(radius / 4)
+            .startAngle(function (d) { return donutScale(d[0]); })
+            .endAngle(function (d) { return donutScale(d[1]); });
 
-            
+            svg.selectAll("path")
+            .data(data)
+            .enter()
+            .append("path")
+            .attr("d", arc)
+            .style("fill", function (d) { return d[2]; })
+            .style("stroke", "#403D30")
+            //.attr("transform", "translate(" + radius / 4 + "," + radius / 4 + ")");
+            .attr("transform", "translate(" + radius / 4 + "," + radius / 4 + ")");
 
-            //scope.render = function (radius) {
-
-                console.log('radius in render is: ' + radius);
-
-                var svg = d3.select(element[0])
-                .append('svg')
-                //.attr('width', width / 2 + 'px')
-                //.attr('height', height / 2 + 'px');
-                .attr("preserveAspectRatio", "xMinYMin meet")
-                .attr("viewBox", "-11 0 80 80")
-                .classed("svg-content", true);
-
-                console.log(element[0])
-
-                var donutScale = d3.scale.linear().domain([0, 100]).range([0, 2 * Math.PI]);
-                var color = "#FFF3C1";
-                var data = [[0, 100, "transparent"], [0, percent, color]];
-
-                var arc = d3.svg.arc()
-                //.innerRadius(radius / 6)
-                //.outerRadius(radius / 4)
-                .innerRadius(container_radius /6)
-                .outerRadius(container_radius / 4)
-                .startAngle(function (d) { return donutScale(d[0]); })
-                .endAngle(function (d) { return donutScale(d[1]); });
-
-                svg.selectAll("path")
-                .data(data)
-                .enter()
-                .append("path")
-                .attr("d", arc)
-                .style("fill", function (d) { return d[2]; })
-                .style("stroke", "#403D30")
-                //.attr("transform", "translate(" + radius / 4 + "," + radius / 4 + ")");
-                .attr("transform", "translate(" + container_radius / 4 + "," + container_radius / 4 + ")");
-
-                svg.append("text")
-                //.attr("x", radius / 4)
-                //.attr("y", radius / 4)
-                .attr("x", container_radius / 4)
-                .attr("y", container_radius / 4)
-                .attr("dy", ".35em")
-                .attr("text-anchor", "middle")
-                .attr("font-size", container_radius / 7 + "px")
-                .style("fill", color)
-                .attr("text-anchor", "middle")
-                .text(percent + '%');
-            //}
+            svg.append("text")
+            //.attr("x", radius / 4)
+            //.attr("y", radius / 4)
+            .attr("x", radius / 4)
+            .attr("y", radius / 4)
+            .attr("dy", ".35em")
+            .attr("text-anchor", "middle")
+            .attr("font-size", radius / 7 + "px")
+            .style("fill", color)
+            .attr("text-anchor", "middle")
+            .text(percent + '%');
 
         }
     };
