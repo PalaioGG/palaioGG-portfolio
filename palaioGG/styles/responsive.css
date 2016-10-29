@@ -106,7 +106,23 @@
 /* Extra Small Devices, Phones */ 
     @media only screen and (max-width : 480px) {
 
-    }
+
+        /*skills region*/
+        .palaioGG .skills .skills-title { font-size: 2.3rem; }
+        .palaioGG .skills .skills-notice {
+            text-align: justify;
+            font-size: 10px;
+        }
+        .palaioGG .skills .skillset .skill-container .skill-label { display: none; }
+        .palaioGG .skills .skillset .skill-container { min-height: 50px; }
+        .palaioGG .skills .skillset .skill-container .donut-container {
+            min-height: 50px;
+            min-width: 50px;
+        }
+        .palaioGG .skills .skillset .skill-container .skill-logo { min-width: 20px; }
+        .palaioGG .skills .skills-familiar { font-size: 12px; }
+        
+        .palaioGG .skills .skillset .skill-container .donut-container { margin-top: -4px; }
 
 @media screen and (max-width: 380px) {
     /*hamburgher*/
@@ -126,20 +142,7 @@
         top: 13%;
     }
 
-    /*skills region*/
-    .palaioGG .skills .skills-title { font-size: 2.3rem; }
-    .palaioGG .skills .skills-notice {
-        text-align: justify;
-        font-size: 10px;
-    }
-    .palaioGG .skills .skillset .skill-container .skill-label { display: none; }
-    .palaioGG .skills .skillset .skill-container { min-height: 50px; }
-    .palaioGG .skills .skillset .skill-container .donut-container {
-        min-height: 50px;
-        min-width: 50px;
-    }
-    .palaioGG .skills .skillset .skill-container .skill-logo { min-width: 20px; }
-    .palaioGG .skills .skills-familiar { font-size: 12px; }
+    
 
     /*contanct region*/
     .palaioGG .contact .closing-message p { font-size: 14px; font-size: 3vw; }

@@ -81,9 +81,20 @@ myApp.directive('d3Donut', function ($window) {
             var width = container.width();
             var height = container.height();
             var container_radius = (width + height) / 2;
-            var radius = container_radius > 80 ? container_radius : container_radius * 1.65;
+            var radius;
+            var screen_width = $window.innerWidth;
+                
+            if (screen_width > 1920) {
+                radius = container_radius * 0.65;
+            }
+            else if ((screen_width < 992) && (screen_width > 480) ) {
+                radius = container_radius * 1.6;
+            }
+            else if (screen_width < 480) {
+                radius = container_radius * 2;
+            }
+            else radius = container_radius;
 
-            console.log("cont radius: " + container_radius);
 
             var svg = d3.select(element[0])
             .append('svg')
