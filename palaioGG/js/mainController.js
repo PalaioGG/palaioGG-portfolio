@@ -2,8 +2,7 @@
 
 myApp.controller('palaioController', [
     '$scope',
-    '$window',
-    function ($scope, $window) {
+    function ($scope) {
 
         $scope.menu_visible = false;
 
@@ -34,26 +33,6 @@ myApp.controller('palaioController', [
             };
         };
 
-        //angular.element($window).bind('resize', function () {
-        //    var x = 200;
-        //    var y = Math.round(window.innerWidth / 7);
-        //    if (y < 200 && y > 60) {
-        //        $scope.$apply(function () {
-        //            $scope.radiusResize = y;
-        //        });
-        //    };
-        //    //console.log('y: ' + y);
-        //    //console.log('radius: ' + $scope.radius);
-        //});
-
-        //$scope.$watch('radiusResize', function (newValue, oldValue) {
-        //    $scope.radius = $scope.radiusResize;
-        //    //console.log('WATCHradius: ' + $scope.radius);
-        //});
-
-        //if (window.innerWidth < 540) {
-        //    $scope.radius = 150;
-        //} else $scope.radius = 200;
 
         $scope.HTML = { name: 'HTML', percent: 74 };
         $scope.CSS = { name: 'CSS', percent: 72 };
@@ -61,9 +40,6 @@ myApp.controller('palaioController', [
         $scope.responsive = { name: 'Responsive', percent: 66 };
         $scope.javascript = { name: 'Javascript', percent: 54 };
         $scope.angular = { name: 'AngularJS', percent: 48 };
-        $scope.data = [
-            { name: 'HTML', percent: 74 },
-        ];
     }
 ])
 
@@ -98,8 +74,6 @@ myApp.directive('d3Donut', function ($window) {
 
             var svg = d3.select(element[0])
             .append('svg')
-            //.attr('width', width / 2 + 'px')
-            //.attr('height', height / 2 + 'px');
             .attr("preserveAspectRatio", "xMinYMin meet")
             .attr("viewBox", "-11 -2 80 80")
             .classed("svg-content", true);
@@ -109,8 +83,6 @@ myApp.directive('d3Donut', function ($window) {
             var data = [[0, 100, "transparent"], [0, percent, color]];
 
             var arc = d3.svg.arc()
-            //.innerRadius(radius / 6)
-            //.outerRadius(radius / 4)
             .innerRadius(radius / 6)
             .outerRadius(radius / 4)
             .startAngle(function (d) { return donutScale(d[0]); })
@@ -123,12 +95,9 @@ myApp.directive('d3Donut', function ($window) {
             .attr("d", arc)
             .style("fill", function (d) { return d[2]; })
             .style("stroke", "#403D30")
-            //.attr("transform", "translate(" + radius / 4 + "," + radius / 4 + ")");
             .attr("transform", "translate(" + radius / 4 + "," + radius / 4 + ")");
 
             svg.append("text")
-            //.attr("x", radius / 4)
-            //.attr("y", radius / 4)
             .attr("x", radius / 4)
             .attr("y", radius / 4)
             .attr("dy", ".35em")

@@ -394,11 +394,12 @@
     height: 100vh;
     z-index: 10;
     position: relative;
+    /*font-family: Walkway;*/
 }
 
     .palaioGG .about .about-content {
         position: absolute;
-        top: 20%;
+        top: 30%;
         z-index: 5;
         padding-right: 30px;
         padding-left: 140px;
@@ -453,15 +454,27 @@
         bottom: -100%;
     }
 
-    .palaioGG .about .about-content .about-text {
-        margin-top: 40px;
-        font-size: 1vmax;
-        text-align: justify;
+    .palaioGG .about .about-content .about-title {
+        font-size: 1.3vmax;
+        font-weight: 500;
     }
 
+    .palaioGG .about .about-content .about-text {
+        margin-top: 8px;
+        font-size: .85vmax;
+        text-align: justify;
+        padding-right: 50px;
+    }
+    
         .palaioGG .about .about-content .about-text .fa-heart {
             color: #E0493A;
+            /*animation: heart-pump 1.5s infinite;*/
         }
+
+        /*@keyframes heart-pump {
+            from { font-size: 2.0em; }
+            to { font-size: 2.1em }
+        }*/
 /*endregion*/
 
 /*skills region*/
