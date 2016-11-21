@@ -1,9 +1,15 @@
 ﻿/*responsive region*/
 @media only screen and (max-width : 1200px) {
+        .palaioGG .main .title-container h2 {
+        font-size: 2.5vmax;
+    }
+
     .palaioGG .about .about-content {
         padding-left: 30px;
     }
-    .palaioGG .about .about-content p { font-size: 1.2vmax; }
+    .palaioGG .about .about-content .about-text { font-size: 1.2vmax; }
+
+    .palaioGG .contact h5 { font-size: 1.3vmax }
 }
 
 @media only screen and (max-width : 992px) {
@@ -16,6 +22,10 @@
 }
 
 @media only screen and (max-width: 767px) {
+    .palaioGG .main .title-container {
+        margin-top: 5%;
+    }
+
     /*about region*/
     .palaioGG .about {
         position: relative;
@@ -25,16 +35,18 @@
             position: absolute;
             z-index: 5;
             padding: 0 20px;
-            bottom: 40vh;
+            top: 18%;
+            /*bottom: 40vh;*/
         }
 
-            .palaioGG .about .about-content h1 {
+            .palaioGG .about .about-content .about-title {
                 font-size: 28px;
-                text-align: center;
+                /*text-align: center;*/
             }
 
-            .palaioGG .about .about-content p {
+            .palaioGG .about .about-content .about-text {
                 font-size: 1.7vmax;
+                padding-right: 0;
             }
 
         .palaioGG .about .cityscape-wrapper {
@@ -69,16 +81,16 @@
         min-height: 100vmax;
     }
 
-        .palaioGG .contact .contact-title { font-size: 2.2vmax; }
+        .palaioGG .contact .contact-title,
         .palaioGG .contact .connect-title,
-        .palaioGG .contact .subscribe-title { padding-top: 10px; font-size: 2.2vmax; }
+        .palaioGG .contact .subscribe-title { padding-top: 10px; font-size: 1.7vmax; }
 
-        .palaioGG .contact .contact-details .email { font-size: 1.8vmax; }
+        .palaioGG .contact .contact-details .email { font-size: 1.4vmax; }
 
-        .palaioGG .contact .fa { font-size: 3vmax; }
+        .palaioGG .contact .fa { font-size: 2vmax; }
 
         .palaioGG .contact .closing-message p { font-size: 14px; font-size: 2vw; }
-        .palaioGG .contact .footer-rights h5 { font-size: 2vw; }
+        .palaioGG .contact .footer-rights p { font-size: 2vw; }
 
 @media screen and (max-width: 658px) {
     .overlay a {
@@ -100,7 +112,7 @@
     }
 
     .palaioGG .contact .closing-message { font-size: 14px; font-size: 2.3vw; }
-    .palaioGG .contact .footer-rights h5 { font-size: 2.3vw; }
+    .palaioGG .contact .footer-rights p { font-size: 2.3vw; }
 }
 
 /* Extra Small Devices, Phones */ 
@@ -125,6 +137,10 @@
         .palaioGG .skills .skillset .skill-container .donut-container { margin-top: -4px; }
 
 @media screen and (max-width: 380px) {
+    .palaioGG .main .title-container {
+        margin-top: 15%;
+    }
+
     /*hamburgher*/
     #nav-icon3 span:nth-child(2), #nav-icon3 span:nth-child(3) {
         top: 10px;
@@ -139,14 +155,16 @@
 
     /*about region*/
     .palaioGG .about .about-content {
-        top: 13%;
+        top: 15%;
     }
 
-    
+    .palaioGG .about .about-content .about-text {
+        font-size: 1.4vmax;
+    }
 
     /*contanct region*/
-    .palaioGG .contact .closing-message p { font-size: 14px; font-size: 3vw; }
-    .palaioGG .contact .footer-rights h5 { font-size: 3vw; }
+    .palaioGG .contact .closing-message p { font-size: 14px; font-size: 2.8vw; }
+    .palaioGG .contact .footer-rights p { font-size: 3vw; }
 }
 
 @media screen and (max-width: 360px) {

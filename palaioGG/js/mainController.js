@@ -102,7 +102,7 @@ myApp.directive('d3Donut', function ($window) {
             .attr("y", radius / 4)
             .attr("dy", ".35em")
             .attr("text-anchor", "middle")
-            .attr("font-size", radius / 7 + "px")
+            .attr("font-size", radius / 8 + "px")
             .style("fill", color)
             .attr("text-anchor", "middle")
             .text(percent + '%');

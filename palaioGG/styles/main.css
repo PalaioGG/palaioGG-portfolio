@@ -36,6 +36,11 @@
     font-family: Ambrosia;
     src: url(../fonts/AMBROSIA_DEMO.ttf);
 }
+
+@font-face {
+    font-family: Monospace;
+    src: url(../fonts/george-williams_monospace/Monospace.ttf)
+}
 /*endregion*/
 
 /*generic region*/
@@ -83,10 +88,12 @@
 .overlay a {
     padding: 8px;
     text-decoration: none;
-    font-size: 36px;
+    font-size: 40px;
     color: #818181;
     display: block; /* Display block instead of inline */
     transition: 0.3s; /* Transition effects on hover (color) */
+    font-family: Walkway;
+    letter-spacing: 7px;
 }
 
     .overlay a:hover, .overlay a:focus {
@@ -201,8 +208,8 @@
     .palaioGG .main .avatar {
         width: 15vmax;
         height: 15vmax;
-        min-width: 8vmax;
-        min-height: 8vmax;
+        min-width: 160px;
+        min-height: 160px;
     }
 
     .palaioGG .main .avatar-wrapper {
@@ -394,7 +401,7 @@
     height: 100vh;
     z-index: 10;
     position: relative;
-    /*font-family: Walkway;*/
+    font-family: Monospace;
 }
 
     .palaioGG .about .about-content {
@@ -455,13 +462,12 @@
     }
 
     .palaioGG .about .about-content .about-title {
-        font-size: 1.3vmax;
+        font-size: 1.5vmax;
         font-weight: 500;
     }
 
     .palaioGG .about .about-content .about-text {
-        margin-top: 8px;
-        font-size: .85vmax;
+        font-size: .9vmax;
         text-align: justify;
         padding-right: 50px;
     }
@@ -484,6 +490,7 @@
     padding-top: 23%;
     padding-top: 23vmax;
     min-height: 65vmax;
+    font-family: Monospace!important;
 }
 
 .palaioGG .skills .skillset {
@@ -501,8 +508,8 @@
 .palaioGG .skills .skills-notice {
     text-align: center;
     padding: 0 30%;
-    padding-bottom: 5%;
-    font-size: 12px;
+    padding-bottom: 3%;
+    font-size: 13px;
 }
 
 .palaioGG .skills .skills-familiar {
@@ -572,6 +579,7 @@
     position: relative;
     height: 50vh;
     min-height: 30vmax;
+    font-family: Monospace!important;
 }
 
 .palaioGG .contact .contact-container { position: relative; height: 100%; overflow: auto; }
@@ -592,4 +600,4 @@
 
 .palaioGG .contact .closing-message { padding: 3vmax 15px; text-align: justify; }
 .palaioGG .contact .closing-message p { font-size: 1vw; }
-.palaioGG .contact .footer-rights h5 { font-size: 1.2vw; }
+.palaioGG .contact .footer-rights p { font-size: 1.2vw; margin: 5px }
