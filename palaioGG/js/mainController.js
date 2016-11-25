@@ -75,7 +75,7 @@ myApp.directive('d3Donut', function ($window) {
             var svg = d3.select(element[0])
             .append('svg')
             .attr("preserveAspectRatio", "xMinYMin meet")
-            .attr("viewBox", "-11 -2 80 80")
+            .attr("viewBox", "-17 -2 100 100")
             .classed("svg-content", true);
 
             var donutScale = d3.scale.linear().domain([0, 100]).range([0, 2 * Math.PI]);

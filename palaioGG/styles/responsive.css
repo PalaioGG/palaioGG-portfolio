@@ -19,6 +19,9 @@
 
     .palaioGG .contact { min-height: 40vmax; }
     .palaioGG .contact .closing-message p { font-size: 14px; font-size: 1.2vw; }
+
+    .palaioGG .skills .skills-familiar { font-size: 12px; }
+    .palaioGG .skills .skillset .skill-container .skill-label { font-size: 12px }
 }
 
 @media only screen and (max-width: 767px) {

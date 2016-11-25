@@ -28,7 +28,7 @@
     <div class="palaioGG" id="container2">
         <div class="container-fluid">
             <div class="row">
-                <div class="main bg-layer">
+                <div class="main bg-layer" id="home">
                     <div class="col-xs-12">
                         <div id="nav-icon3" ng-click="controlNav()" ng-class="{'open': menu_visible === true}">
                             <span></span>
@@ -41,6 +41,7 @@
                         </div>
                         <div id="myNav" class="overlay">
                             <div class="overlay-content">
+                                <a ng-click="closeNav()" href="#home">Home</a>
                                 <a ng-click="closeNav()" href="#about">About</a>
                                 <a ng-click="closeNav()" href="#skills">Skills</a>
                                 <a ng-click="closeNav()" href="#projects">Projects</a>
